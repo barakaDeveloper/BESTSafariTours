@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BM Safari.co</title>
+  
+  <style>
+    /* Basic reset and form container */
+body, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.form-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.styled-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+    border-color: #00a859;
+    outline: none;
+}
+
+.form-group half-width {
+    width: 50%;
+}
+
+.form-group third-width {
+    width: 33.33%;
+}
+
+.form-group button {
+    background-color: #ff5722; /* Orange color for the button */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #e64a19;
+}
+
+  </style>
+
+</head>
+<body>
+  <div class="form-container">
+    <form class="styled-form">
+        <div class="form-group">
+            <label for="form-field-name">Full Name</label>
+            <input type="text" name="form_fields[name]" id="form-field-name" placeholder="Full Name">
+        </div>
+        <div class="form-group">
+            <label for="form-field-email">Email</label>
+            <input type="email" name="form_fields[email]" id="form-field-email" placeholder="Email" required>
+        </div>
+        <div class="form-group">
+            <label for="form-field-field_b495777">Phone Number</label>
+            <input type="text" name="form_fields[field_b495777]" id="form-field-field_b495777" placeholder="Phone Number" required>
+        </div>
+        <div class="form-group half-width">
+            <label for="form-field-field_d7d6326">Arrival Date</label>
+            <input type="text" name="form_fields[field_d7d6326]" id="form-field-field_d7d6326" placeholder="Arrival Date" required>
+        </div>
+        <div class="form-group half-width">
+            <label for="form-field-field_53b20cb">Departure Date</label>
+            <input type="text" name="form_fields[field_53b20cb]" id="form-field-field_53b20cb" placeholder="Departure Date" required>
+        </div>
+        <div class="form-group third-width">
+            <label for="form-field-field_dc1338a">No. of Adults</label>
+            <input type="number" name="form_fields[field_dc1338a]" id="form-field-field_dc1338a" placeholder="No. of Adults" required>
+        </div>
+        <div class="form-group third-width">
+            <label for="form-field-field_942c603">No. of Children</label>
+            <input type="number" name="form_fields[field_942c603]" id="form-field-field_942c603" placeholder="No. of Children" required>
+        </div>
+        <div class="form-group third-width">
+            <label for="form-field-field_f27dfd7">No. of Infants</label>
+            <input type="number" name="form_fields[field_f27dfd7]" id="form-field-field_f27dfd7" placeholder="No. of Infants" required>
+        </div>
+        <div class="form-group">
+            <label for="form-field-message">Additional Information</label>
+            <textarea name="form_fields[message]" id="form-field-message" rows="4" placeholder="Additional Information"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Book Now</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
