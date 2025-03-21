@@ -1,0 +1,289 @@
+ 
+/* Importing thick font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+
+body {
+     font-family: Poppins, sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ .form-container {
+     max-width: 1200px;
+     margin: 20px auto;
+     padding: 20px;
+     background-color: #acabab;
+     border-radius: 8px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .form-header h2 {
+     color: #27e246;
+     margin: 0;
+     font-size: 39px;
+     font-weight: bolder;
+     font-family: 'Arizonia', cursive;
+ }
+ .styled-form {
+     display: flex;
+     flex-wrap: wrap;
+ }
+
+ .form-group {
+     width: 100%;
+     margin-bottom: 15px;
+ }
+
+ .form-group label {
+     font-weight: bold;
+     margin-bottom: 5px;
+     display: block;
+     color: #0a0a0a;
+ }
+
+ .form-group input, .form-group textarea, .form-group select {
+     width: 100%;
+     padding: 10px;
+     border-radius: 4px;
+     border: 1px solid #ddd;
+     font-size: 16px;
+     font-family: Poppins, sans-serif;
+ }
+
+ .form-group input:focus, .form-group textarea:focus, .form-group select:focus {
+     border-color: #00a859;
+     box-shadow: 0 0 5px rgba(0, 168, 89, 0.5);
+     outline: none;
+ }
+
+ .third-width {
+     width: 33.33%;
+     padding-right: 10px;
+ }
+
+ .half-width {
+     width: 50%;
+     padding-right: 10px;
+ }
+
+ .full-width {
+     width: 100%;
+ }
+
+ .form-group button {
+     font-family: Poppins, sans-serif;
+     font-weight: bolder;
+     background-color: #00a846; 
+     color: #fff;
+     padding: 10px 20px;
+     border-radius: 4px;
+     width: 100%;
+     border: none;
+     font-size: 16px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+
+ .form-group button:hover {
+     background-color: #02240d;
+ }
+ .iti__country-list {
+    width: 350px; /* Set the desired width for the dropdown */
+  }
+  
+  .iti__country {
+    white-space: nowrap; /* Prevent text from wrapping within the dropdown items */
+  }
+  
+  .iti__flag-container {
+    width: 50px; /* Keep the flag dropdown narrow */
+  }
+  
+  #tel {
+    padding-left: 60px; /* Adjust padding for the phone number input */
+  }
+
+.video-wrap {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 350px; /* Set height based on your layout */
+    overflow: hidden;
+  }
+  
+  .background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the video covers the entire area */
+    transform: translate(-50%, -50%);
+    z-index: 0;
+  }
+ 
+
+/* Overlay styles */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3); /* Optional dark overlay */
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px; /* Added padding for smaller screens */
+}
+
+/* Block effect styles */
+.block-effect {
+  font-size: 4rem; /* Default font size */
+  font-family: 'Roboto Slab', serif; /* Using Roboto Slab for thick, bold font */
+  color: white;
+  display: flex;
+  gap: 0.3rem;
+  text-align: center;
+}
+
+.block-reveal {
+  --t: calc(var(--td) + var(--d));
+
+  color: transparent;
+  padding: 4px;
+  
+  position: relative;
+  overflow: hidden;
+  
+  animation: revealBlock 2s var(--d) ease-in-out forwards, hideBlock 5s calc(4s + var(--d)) infinite; /* Effect occurs frequently */
+}
+
+.block-reveal::after {
+  content: '';
+  width: 0%;
+  height: 100%;
+  padding-bottom: 4px;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  background: var(--bc);
+  animation: revealingIn 1.5s var(--d) forwards, revealingOut 1.5s calc(2.5s + var(--d)) forwards;
+}
+
+/* Keyframe animations */
+@keyframes revealBlock {
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: white;
+  }
+}
+
+@keyframes hideBlock {
+  0%, 80% {
+    color: white;
+  }
+  100% {
+    color: transparent;
+  }
+}
+
+@keyframes revealingIn {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes revealingOut {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Media Queries for Responsiveness */
+
+/* Tablet devices */
+@media (max-width: 768px) {
+  .block-effect {
+    font-size: 2.5rem; /* Adjust font size for tablets */
+  }
+
+  .overlay {
+    padding: 10px;
+  }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+  .block-effect {
+    font-size: 2rem; /* Smaller font size for mobile */
+    flex-direction: column; /* Stack the text vertically on small screens */
+    gap: 1rem;
+  }
+
+  .overlay {
+    padding: 5px;
+  }
+}
+
+  
+
+.form-wrap .text {
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+    position: relative;
+    border-top: none;
+    margin-top: -40px;
+    background: #fff;
+    border: #009933 solid 1px;
+    -webkit-box-shadow: 0px 10px 23px -8px rgba(0, 0, 0, 0.11);
+    -moz-box-shadow: 0px 10px 23px -8px rgba(0, 0, 0, 0.11);
+    box-shadow: 0px 10px 23px -8px rgba(0, 0, 0, 0.11); 
+  }
+
+
+ /* Responsive Design */
+ @media (max-width: 1024px) {
+     .third-width {
+         width: 50%;
+     }
+
+     .half-width {
+         width: 100%;
+     }
+ }
+
+ @media (max-width: 768px) {
+     .third-width, .half-width {
+         width: 100%;
+         padding-right: 0;
+     }
+
+     .form-container {
+         padding: 15px;
+     }
+ }
+
+ @media (max-width: 480px) {
+     .form-container {
+         padding: 10px;
+     }
+
+     .form-group input, .form-group textarea {
+         font-size: 14px;
+     }
+ }

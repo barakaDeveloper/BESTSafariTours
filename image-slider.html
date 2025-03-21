@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accommodation List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #2E7D32;
+        }
+
+        .accommodation {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .day {
+            font-size: 18px;
+            font-weight: bold;
+            background: #2E7D32;
+            color: white;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .details {
+            flex-grow: 1;
+        }
+
+        h3 {
+            margin: 5px 0;
+            color: #2E7D32;
+        }
+
+        p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .images {
+            display: flex;
+            align-items: center;
+        }
+
+        .images img {
+            width: 70px;
+            height: 50px;
+            margin-right: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .images img:hover {
+            transform: scale(1.1);
+        }
+
+        .more-photos {
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            position: relative;
+            text-align: center;
+            line-height: 50px;
+            width: 70px;
+            height: 50px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Image Slider Popup */
+        .slider {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        .slider-img {
+            max-width: 90%;
+            max-height: 80vh;
+            border-radius: 10px;
+        }
+
+        .close {
+            position: absolute;
+            top: 15px;
+            right: 25px;
+            font-size: 40px;
+            color: white;
+            cursor: pointer;
+        }
+
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            color: white;
+            font-size: 40px;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .prev { left: 30px; }
+        .next { right: 30px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Accommodation List</h2>
+        
+        <div class="accommodation">
+            <div class="day">1</div>
+            <div class="details">
+                <h3>Suricata Boma Lodge</h3>
+                <p>Mid-range lodge 1-2hr drive from Tarangire NP</p>
+                <div class="images">
+                    <img src="images/Destinations/arusha-national-park.jpg" onclick="openSlider(0, 0)">
+                    <img src="images/Destinations/bagamoyo-dest.jpg" onclick="openSlider(0, 1)">
+                    <img src="images/Destinations/chemka-hot-springs-2.jpg" onclick="openSlider(0, 2)">
+                    <img src="images/Destinations/Arusha-park-dest.jpg" onclick="openSlider(0, 3)">
+                    <img src="images/Destinations/chemka-hot-springs-2.jpg" onclick="openSlider(0, 4)">
+                    <div class="more-photos" onclick="openSlider(0, 5)">+3</div>
+                </div>
+            </div>
+        </div>
+        <div class="accommodation">
+            <div class="day">1</div>
+            <div class="details">
+                <h3>Suricata Boma Lodge</h3>
+                <p>Mid-range lodge 1-2hr drive from Tarangire NP</p>
+                <div class="images">
+                    <img src="images/Destinations/arusha-national-park.jpg" onclick="openSlider(0, 0)">
+                    <img src="images/Destinations/bagamoyo-dest.jpg" onclick="openSlider(0, 1)">
+                    <img src="images/Destinations/chemka-hot-springs-2.jpg" onclick="openSlider(0, 2)">
+                    <img src="images/Destinations/Arusha-park-dest.jpg" onclick="openSlider(0, 3)">
+                    <img src="images/Destinations/chemka-hot-springs-2.jpg" onclick="openSlider(0, 4)">
+                    <div class="more-photos" onclick="openSlider(0, 5)">+3</div>
+                </div>
+            </div>
+        </div>
+        <div class="accommodation">
+            <div class="day">1</div>
+            <div class="details">
+                <h3>Suricata Boma Lodge</h3>
+                <p>Mid-range lodge 1-2hr drive from Tarangire NP</p>
+                <div class="images">
+                    <img src="images/Destinations/arusha-national-park.jpg" onclick="openSlider(0, 0)">
+                    <img src="images/Destinations/bagamoyo-dest.jpg" onclick="openSlider(0, 1)">
+                    <img src="images/Destinations/chemka-hot-springs-2.jpg" onclick="openSlider(0, 2)">
+                    <img src="images/Destinations/Arusha-park-dest.jpg" onclick="openSlider(0, 3)">
+                    <img src="images/Destinations/chemka-hot-springs-2.jpg" onclick="openSlider(0, 4)">
+                    <div class="more-photos" onclick="openSlider(0, 5)">+3</div>
+                </div>
+            </div>
+        </div>
+        <div class="accommodation">
+            <div class="day">1</div>
+            <div class="details">
+                <h3>Suricata Boma Lodge</h3>
+                <p>Mid-range lodge 1-2hr drive from Tarangire NP</p>
+                <div class="images">
+                    <img src="images/Destinations/arusha-national-park.jpg" onclick="openSlider(0, 0)">
+                    <img src="images/Destinations/bagamoyo-dest.jpg" onclick="openSlider(0, 1)">
+                    <img src="images/Destinations/chemka-hot-springs-2.jpg" onclick="openSlider(0, 2)">
+                    <img src="images/Destinations/Arusha-park-dest.jpg" onclick="openSlider(0, 3)">
+                    <img src="images/Destinations/chemka-hot-springs-2.jpg" onclick="openSlider(0, 4)">
+                    <div class="more-photos" onclick="openSlider(0, 5)">+3</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Image Slider Popup -->
+    <div id="imageSlider" class="slider">
+        <span class="close" onclick="closeSlider()">&times;</span>
+        <img id="sliderImage" class="slider-img">
+        <button class="prev" onclick="prevImage()">&#10094;</button>
+        <button class="next" onclick="nextImage()">&#10095;</button>
+    </div>
+
+    <script>
+        const imageGroups = [
+            [
+            "images/Destinations/arusha-national-park.jpg",
+             "images//Destinations/bagamoyo-dest.jpg", 
+             "images/Destinations/chemka-hot-springs-2.jpg", 
+             "images/Destinations/Arusha-park-dest.jpg", 
+             "images/Destinations/chemka-hot-springs-2.jpg",
+              "images/Destinations/Stone-Town2.jpg", 
+             "images/Destinations/Victoria-hero-bg.jpg", 
+             "images/Destinations/Zanzibar-dest.jpg"
+            ]
+        ];
+        
+        let currentGroup = 0;
+        let currentIndex = 0;
+
+        function openSlider(group, index) {
+            currentGroup = group;
+            currentIndex = index;
+            document.getElementById("sliderImage").src = imageGroups[group][index];
+            document.getElementById("imageSlider").style.display = "block";
+        }
+
+        function closeSlider() {
+            document.getElementById("imageSlider").style.display = "none";
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % imageGroups[currentGroup].length;
+            document.getElementById("sliderImage").src = imageGroups[currentGroup][currentIndex];
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + imageGroups[currentGroup].length) % imageGroups[currentGroup].length;
+            document.getElementById("sliderImage").src = imageGroups[currentGroup][currentIndex];
+        }
+    </script>
+</body>
+</html>

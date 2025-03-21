@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BM-Safaris-Tanzania</title>
+  <link rel="icon" href="images/Logo.png" type="image/png"/> 
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Link to SweetAlert CSS and any other stylesheets here -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Include intl-tel-input CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+    <link rel="stylesheet" href="css/form.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+  <nav class="navbar navigation-background navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		
+		<div class="container">	
+				<a class="navbar-brand" href="index.html">BM<span><strong>Safaris</strong></span></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"><i class="fa-solid fa-bars"></i></span>
+				</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto round-box">
+					<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#footer" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="destination.html" class="nav-link">Destination</a></li>
+					<li class="nav-item"><a href="packages.html" class="nav-link">Packeges</a></li>
+          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+					<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+		
+		</div>
+	</nav>
+<!-- END nav -->
+
+<section class="hero-wrap-dest hero-wrap-2-dest  destination-list-hero" style="background-image: url('images/Destinations/Serengeti_sunset-bg.jpg'); height: 418px;">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row no-gutters slider-text justify-content-center">
+      <div class="col-md-9 ftco-animate text-center">
+         <p class="breadcrumbs"><span class="mr-2"><a href="destination.html">Destinations <i class="fa fa-chevron-right"></i></a></span> <span>Booking<i class="fa fa-chevron-right"></i></span></p>
+         <h1 class="bread">Book your favorite Safari in Tanzania</h1>
+     </div>
+ </div>
+</div>
+
+</section>
+<section class="ftco-section ftco-animate">
+    <div class="container">
+        <div class="row">
+<div class="form-wrap">
+     <a href="#" class="video-wrap">
+          <video autoplay muted loop class="background-video">
+            <source src="video/form-video-bg.mp4" type="video/mp4">
+          </video>
+          <div class="overlay">
+            <h2 class="block-effect" style="--td: 1.5s">
+              <div class="block-reveal" style="--bc: #3636b4; --d: 0s">Visit Africa </div>
+              <div class="block-reveal" style="--bc: #38d619; --d: 1.5s">Tanzania...</div>
+            </h2>
+          </div>
+          
+        </a>
+<div class="text p-4">
+<div class="form-container">
+    
+    <form class="styled-form" id="bookingForm" action="booking_process.php" method="POST" >
+        <div class="form-group third-width">
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="Full Name" required>
+        </div>
+        <div class="form-group third-width">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="form-field-email" placeholder="Email" required>
+        </div>
+        <div class="form-group third-width">
+            <label for="phone">Whatsapp Number</label>
+            <input type="tel" name="Phone" id="tel" placeholder="742xxxxxxxx" required>
+            <input type="hidden" name="full_Phone" id="full_Phone"> <!-- hidden -->
+        </div>
+        <div class="form-group half-width">
+            <label for="arrival-date">Arrival Date</label>
+            <input type="date" name="arrival-date" id="arrival-date" placeholder="Arrival Date" required>
+        </div>
+        <div class="form-group half-width">
+            <label for="departure-date">Departure Date</label>
+            <input type="date" name="departure-date" id="departure-date" placeholder="Departure Date" required>
+        </div>
+        
+        <p class="form-group full-width text-light text-dark mt-1 text-center p-2 rounded">Number of Visitors & Destination</p>
+        
+        <div class="form-group third-width">
+            <label for="Adults">Adults (Over 16 Yrs)</label>
+            <input type="number" name="adults" id="adults" placeholder=" No. Of Adults" required>
+        </div>
+        <div class="form-group third-width">
+            <label for="children">Children (Under 17 Yrs)</label>
+            <input type="number" name="children" id="children" placeholder="No. Of Children" required>
+        </div>
+      
+        <div class="form-group third-width">
+            <label for="destination">Destination</label>
+            <!-- Dropdown select for destinations -->
+            <select name="destination" id="destination" required>
+              <option value="" disabled selected>Select a destination</option>
+              <option value="Serengeti National Park">Serengeti National Park</option>
+              <option value="Mikumi National Park">Mikumi National Park</option>
+              <option value="Ruaha National Park">Ruaha National Park</option>
+              <option value="Arusha National Park">Arusha National Park</option>
+              <option value="Katavi National Park">Katavi National Park</option>
+              <option value="Ngorongoro Crater">Ngorongoro Crater</option>
+              <option value="Mount Kilimanjaro">Mount Kilimanjaro</option>
+              <option value="Mount Meru">Mount Meru</option>
+              <option value="Mount Oldonyo Lengai">Mount Oldonyo Lengai</option>
+              <option value="Usambala mount ">Usambala Mountain</option>
+              <option value="Uluguru mount ">Uluguru Mountain</option>
+              <option value="Zanzibar Island">Zanzibar Island</option>
+              <option value="Bagamoyo Island">Bagamoyo Island</option>
+              <option value="saa nane  Island">saa nane  Island</option>
+              <option value="Bagamoyo Island">Bagamoyo Island</option>
+              <option value="Pemba Island">Pemba  Island</option>
+              <option value="Mafia Island">Mafia  Island</option>
+              <option value="Lake Eyasi">Lake Eyasi</option>
+              <option value="Lake Manyara">Lake Manyara</option>
+              <option value="Lake Natron">Lake Natron</option>
+              <option value="Lake Tanganyika">Lake Tanganyika</option>
+              <option value="Lake Victoria">Lake Victoria</option>
+              <option value="Gombe Stream">Gombe Stream</option>
+              <option value="Selous Game Reserve">Selous Game Reserve</option>
+              <option value="Mahale Mountains">Mahale Mountains</option>
+              <option value="Rufiji River">Rufiji River</option>
+              <option value="Mara River">Mara River</option>
+              <option value="Kagera River">Kagera River</option>
+              <option value="Kagera River">Materuni Hiking</option>
+              <option value="Kagera River"> Chemka Hot Springs</option>
+              <option value="Kagera River">Kilima Moto Hiking</option>
+            </select>
+        </div>
+
+        <div class="form-group third-width">
+          <label for="destination">Accomodation</label>
+          <!-- Dropdown select for Accomodation -->
+          <select name="accommodation" id="Accomodation" required>
+            <option value="" disabled selected>Select a Accomodation</option>
+            <option value="Budget">Budget</option>
+            <option value="Mid Range">Mid Range</option>
+            <option value="Luxury">Luxury</option>
+          </select>
+      </div>
+
+        <div class="form-group third-width">
+          <label for="my-budget">My Budget Range</label>
+          <!-- Dropdown select for Accomodation -->
+          <select name="my-budget" id="my-budget" required>
+            <option value="" disabled selected>Select Budget Range</option>
+            <option value="$0-$1,000">$0-$1,000</option>
+            <option value="$1,000-$5,000">$1,000-$5,000</option>
+            <option value="$5,000-$10,000">$5,000-$10,000</option>
+            <option value="$10,000-$100,000">$10,000-$100,000</option>
+            <option value="$100,000-$500,000">$100,000-$500,000</option>
+            <option value="$500,000-$1000,000">$500,000-$1000,000</option>
+          </select>
+      </div>
+        <div class="form-group full-width">
+            <label for="message">Additional Information</label>
+            <textarea name="message" id="message" rows="4" placeholder="Additional Information"></textarea>
+        </div>
+        <div class="form-group full-width btn">
+            <button type="submit">Send Booking</button>
+        </div>
+    </form>
+   </div>             
+</div>
+</div>          
+</div>
+</div>
+   </div>
+</section>
+
+
+<footer class="ftco-footer bg-bottom ftco-no-pt" id="footer">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md pt-5">
+        <div class="ftco-footer-widget pt-md-5 mb-4">
+          <h2 class="ftco-heading-2">About</h2>
+          <p>BEST Safari Tours is a premier tour operator based in Tanzania, specializing in providing unforgettable safari experiences across the country’s most iconic destinations. From the vast plains of the Serengeti to the majestic peaks of Mount Kilimanjaro, BM Safaris offers expertly guided tours that showcase the rich wildlife, stunning landscapes, and diverse cultures of Tanzania.</p>
+          <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+            <li class="ftco-animate"><a href="#"><span class="fab fa-twitter"></span></a></li>
+            <li class="ftco-animate"><a href="#"><span class="fab fa-facebook"></span></a></li>
+            <li class="ftco-animate"><a href="https://www.instagram.com/safarisolestours?igsh=NzhxdHR6ZTN2cTdw"><span class="fab fa-instagram"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md pt-5 border-left">
+        <div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
+          <h2 class="ftco-heading-2">Infromation</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="py-2 d-block">Booking Conditions</a></li>
+            <li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
+            <li><a href="#" class="py-2 d-block">Refund Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md pt-5 border-left">
+        <div class="ftco-footer-widget pt-md-5 mb-4">
+          <h2 class="ftco-heading-2">Contacts</h2>
+          <div class="block-23 mb-1">
+            <ul class="contact-icons">
+              <li><span class="icon fa fa-location-dot"></span><span class="contact-text">2235 Sokoine Road, Arusha TANZANIA</span></li>
+              <li><a  href="mailto:barackbr37@gmail.com"><span class="icon fa fa-envelope"></span><span class="contact-text">info@bmsafaris.com</span></a></li>
+              <li><a href="tel:+255623171089"><span class="icon fa fa-phone"></span><span class="contact-text">+255 623 171 089</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+        <div class="col-md-12 copyright">              
+        <p><!-- copyright  -->
+        <span class="copylight-block-1">-----------------------------------------</span>
+         <span class="copyright-text">BM Safaris All rights reserved</span> &copy;<script>document.write(new Date().getFullYear());</script>
+        <span class="copylight-block-2">-----------------------------------------</span>
+        </p>
+       </div>
+    </div>
+  </div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center back-to-top"><i class="fas fa-arrow-up"></i><span class="visually-hidden ml-2"> Go Up</span></a>
+
+  <a href="https://wa.me/255623171089" class="whatsapp_float" target="_blank">
+    <i class="fab fa-whatsapp whatsapp-icon"></i>
+    <span class="whatsapp-label">For booking support, let's chat</span>
+   </a>
+     
+  </footer>
+  
+  
+
+
+			<!-- loader -->
+			<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#fff"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#28a745"/></svg></div>
+
+<script src="js/destination.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/scrollax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/main.js"></script>
+<script src="js/form.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="js/sweetAlert.min.js"></script>
+
+
+  <!-- intl-tel-input JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+  <script>
+const phoneInputField = document.querySelector("#tel");
+const phoneInput = window.intlTelInput(phoneInputField, {
+  preferredCountries: ["us", "gb", "ke", "tz"], // Preferred countries
+  initialCountry: "tz", // Set initial flag to Tanzania
+  utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js", // For validation and formatting
+});
+ 
+$('#bookingForm').on('submit', function(e) {
+        e.preventDefault(); // Prevent the default form submission
+
+    // Get the full phone number
+    const fullPhoneNumber = phoneInput.getNumber();
+
+    // Validate the phone number
+    if (!phoneInput.isValidNumber()) {
+        Swal.fire({
+            icon: 'error',
+            title: 'Invalid Phone Number',
+            text: 'Please enter a valid phone number in the correct format.',
+        });
+        return;
+    }
+
+    // Set the value to the hidden input field
+    $('#full_Phone').val(fullPhoneNumber);
+
+
+});
+
+    // Convert the input value to uppercase
+let name = document.getElementById("name");
+name.addEventListener("input", function () {
+            this.value = this.value.toUpperCase();
+        });
+
+  </script>
+
+
+</body>
+</html>

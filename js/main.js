@@ -288,5 +288,155 @@ $(document).ready(function(){
 	$('.carousel-next').click(function() {
 	  owl.trigger('next.owl.carousel');
 	});
+
+
+	   // Back to top button
+	   $(window).scroll(function () {
+		if ($(this).scrollTop() > 300) {
+		    $('.back-to-top').fadeIn('slow');
+		} else {
+		    $('.back-to-top').fadeOut('slow');
+		}
+	 });
+	 $('.back-to-top').click(function () {
+		$('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+		return false;
+	 });
+
+	
   });
   
+
+//   ------------PACKAGES ANIMATION EFFECTS--------------------
+
+  document.addEventListener("DOMContentLoaded", () => {
+	const observerOptions = {
+	    threshold: 0.1  // Trigger when 10% of the element is visible
+	};
+
+	const observer = new IntersectionObserver((entries) => {
+	    entries.forEach(entry => {
+		   if (entry.isIntersecting) {
+			  entry.target.classList.add("in-view");
+		   }
+	    });
+	}, observerOptions);
+
+	// Observe each animated element
+	document.querySelectorAll(".fade-in-top, .fade-in-right, .zoom-in").forEach(element => {
+	    observer.observe(element);
+	});
+ });
+
+
+
+ //--------------------PACKAGE CARDS DYNAMIC CHANGES OF TABS--------------------
+ 
+ 
+        const tabs = document.querySelectorAll('.tabs a');
+        const sections = document.querySelectorAll('.content-section');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', (e) => {
+                e.preventDefault();
+                tabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+
+                const target = tab.getAttribute('data-tab');
+                sections.forEach(section => {
+                    if (section.id === target) {
+                        section.classList.add('active');
+                    } else {
+                        section.classList.remove('active');
+                    }
+                });
+            });
+        });
+   
+ 
+
+	//    ----------------------------IMAGE SLIDER ON PACKAGE ACCOMODATION----------------------------
+
+
+
+	const imageGroups = [
+		[
+
+			// ---------------Planet Lodge gallery --------------------
+			"../images/Packages-images/LODGES/planet-lodge-room.jpg",
+			"../images/Packages-images/LODGES/planet-lodge-room2.jpg",
+			"../images/Packages-images/LODGES/planet-lodge-dining.jpg",
+			"../images/Packages-images/LODGES/planet-lodge-gym.jpg",
+			"../images/Packages-images/LODGES/planet-lodge-swiming.jpg",
+			"../images/Packages-images/LODGES/planet-lodge-swiming.jpg",
+			"../images/Packages-images/LODGES/planet-lodge-outdoor.jpg",
+			"../images/Packages-images/LODGES/planet-lodge-food.jpg",
+			"../images/Packages-images/LODGES/planet-lodge-top-view.jpg",
+		],
+		[
+
+			// ---------------Sopa Lodge gallery --------------------
+			"../images/Packages-images/LODGES/sopa-beds.jpg",
+			"../images/Packages-images/LODGES/sopa-room1.jpg",
+			"../images/Packages-images/LODGES/sopa-rest-table.jpg",
+			"../images/Packages-images/LODGES/sopa-siting-room.jpg",
+			"../images/Packages-images/LODGES/sopa-top-view.jpg",
+
+
+		],
+		[
+
+			// ---------------Serengeti safari haven gallery --------------------
+
+			"../images/Packages-images/LODGES/safari-haven-camp-view.webp",
+               "../images/Packages-images/LODGES/safari-haven-dining.webp",
+               "../images/Packages-images/LODGES/safari-haven-outdoor.webp",
+               "../images/Packages-images/LODGES/safari-haven-room.webp",
+               "../images/Packages-images/LODGES/safari-haven-room2.webp",
+                        
+			
+		],
+		[
+
+               // ---------------Day 3 gallery --------------------
+
+		"../images/Packages-images/LODGES/karibu-camps-lounge-bar.jpg",
+		"../images/Packages-images/LODGES/karibu-camps-restaurant.jpg",
+		"../images/Packages-images/LODGES/Karibu-camps-1.webp",
+		"../images/Packages-images/LODGES/Karibu-camps-room-1.jpg",
+		"../images/Packages-images/LODGES/Karibu-camps-room-2.jpg"
+			
+			
+		],
+		
+	 ];
+	 
+
+	 function openSlider(group, index) {
+		currentGroup = group;
+		currentIndex = index;
+		document.getElementById("sliderImage").src = imageGroups[group][index];
+		document.getElementById("imageSlider").style.display = "block";
+
+	 }
+
+	 function closeSlider() {
+		document.getElementById("imageSlider").style.display = "none";
+	 }
+
+	 function nextImage() {
+		currentIndex = (currentIndex + 1) % imageGroups[currentGroup].length;
+		document.getElementById("sliderImage").src = imageGroups[currentGroup][currentIndex];
+	 }
+
+	 function prevImage() {
+		currentIndex = (currentIndex - 1 + imageGroups[currentGroup].length) % imageGroups[currentGroup].length;
+		document.getElementById("sliderImage").src = imageGroups[currentGroup][currentIndex];
+	 }
+
+
+	//  dynamic change the navbar-brand name
+
+	const navbarBrand = document.querySelector('.navbar-brand');
+
+	navbarBrand.innerHTML = 'BEST<span><strong>Safari Tours</strong></span>';
