@@ -29,12 +29,12 @@ const tourData = {
 				</div>
 					<div class="col-md-4 page-1-package">
 						<div class="project-wrap">
-							<a href="#" class="img" style="background-image: url(images/LakeEyasi.jpeg);">
+							<a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html" class="img" style="background-image: url(images/Packages-images/ngorongoro-crater-rhino.jpeg);">
 								<span class="price">$550/person</span>
 							</a>
 							<div class="text p-4">
-								<span class="days">5-Day Tour | 4-Night</span>
-								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="#"> Serengeti, Ngorongoro Crater and Lake Eyasi Safari </a></h3>
+								<span class="days">6-Day Tour | 5-Night</span>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html"> Tarangire, Manyara, Ngorongoro & Lake Eyasi </a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
@@ -48,18 +48,18 @@ const tourData = {
 									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
 									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
 								</ul>
-                                         <span><a href="package-2.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
+                                         <span><a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4 page-1-package">
 						<div class="project-wrap">
-							<a href="#" class="img" style="background-image: url(images/tarangire.jpg);">
+							<a href="4-Day-Tara-Sere-Crater.html" class="img" style="background-image: url(images/tarangire.jpg);">
 								<span class="price">$550/person</span>
 							</a>
 							<div class="text p-4">
 								<span class="days">5 Days Tour | 4-Night</span>
-								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="#"> Tarangire, Serengeti, Ngorongoro Crater and Lake Manyara </a></h3>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="4-Day-Tara-Sere-Crater.html"> Iconic Destinations | Tarangire, Serengeti & Crater</a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
@@ -72,7 +72,7 @@ const tourData = {
 									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
 									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
 								</ul>
-                                         <span><a href="package-3.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
+                                         <span><a href="4-Day-Tara-Sere-Crater.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
 							</div>
 						</div>
 					</div>

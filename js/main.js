@@ -362,7 +362,7 @@ $(document).ready(function(){
 	const imageGroups = [
 		[
 
-			// ---------------Planet Lodge gallery --------------------
+			// ---------------Planet Lodge gallery ---------0-----------
 			"../images/Packages-images/LODGES/planet-lodge-room.jpg",
 			"../images/Packages-images/LODGES/planet-lodge-room2.jpg",
 			"../images/Packages-images/LODGES/planet-lodge-dining.jpg",
@@ -375,7 +375,7 @@ $(document).ready(function(){
 		],
 		[
 
-			// ---------------Sopa Lodge gallery --------------------
+			// ---------------Sopa Lodge gallery ----------1----------
 			"../images/Packages-images/LODGES/sopa-beds.jpg",
 			"../images/Packages-images/LODGES/sopa-room1.jpg",
 			"../images/Packages-images/LODGES/sopa-rest-table.jpg",
@@ -386,27 +386,63 @@ $(document).ready(function(){
 		],
 		[
 
-			// ---------------Serengeti safari haven gallery --------------------
+            	// ---------------Serengeti safari haven gallery ---------2-----------
 
 			"../images/Packages-images/LODGES/safari-haven-camp-view.webp",
                "../images/Packages-images/LODGES/safari-haven-dining.webp",
                "../images/Packages-images/LODGES/safari-haven-outdoor.webp",
                "../images/Packages-images/LODGES/safari-haven-room.webp",
                "../images/Packages-images/LODGES/safari-haven-room2.webp",
-                        
-			
 		],
-		[
 
-               // ---------------Day 3 gallery --------------------
+		[
+			// ---------------Lion's Paw gallery -----------3---------
 
 		"../images/Packages-images/LODGES/karibu-camps-lounge-bar.jpg",
 		"../images/Packages-images/LODGES/karibu-camps-restaurant.jpg",
 		"../images/Packages-images/LODGES/Karibu-camps-1.webp",
 		"../images/Packages-images/LODGES/Karibu-camps-room-1.jpg",
 		"../images/Packages-images/LODGES/Karibu-camps-room-2.jpg"
+
+		],
+		[
+
+		 // ---------------Ngorongoro Ang'ata Luxury Tented Camp gallery ---------4-
+
+		 "../images/Packages-images/LODGES/Ang'ata-camp-view.jpg",
+		 "../images/Packages-images/LODGES/ang'ata-dining.jpg",
+		 "../images/Packages-images/LODGES/ang'ata-room-1.jpg",
+		 "../images/Packages-images/LODGES/ang'ata-room-2.jpg",
+		 "../images/Packages-images/LODGES/Angata-room-3.jpg",
+		 "../images/Packages-images/LODGES/Angata-Ngorongoro-camp.jpg"
+                        
+			
+		],
+		[
+
+            
+			// ---------------Lake Manyara Tortilis Camp gallery ------------5--------
+
+			"images/Packages-images/LODGES/comfortable-tent-tortilis-camps.jpg",
+			"images/Packages-images/LODGES/lake-manyara-tortilis-camp-food.jpg",
+			"images/Packages-images/LODGES/lake-manyara-tortilis-camp-king-bed.jpg",
+			"images/Packages-images/LODGES/lake-manyara-tortilis-fire-camp-view.jpg",
+			"images/Packages-images/LODGES/lake-manyara-tortilis-camp-top-view.jpg"
 			
 			
+		],
+		[
+			// ---------------Lake Eyasi Lodge ------------------------6--------
+
+			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-room-1.jpeg",
+			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-room-2.jpeg",
+			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-room-3.jpeg",
+			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-room-4.jpeg",
+			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-swimming-pool.jpeg",
+			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-outdoor.jpeg",
+			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-view.jpeg",
+			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-dining.jpeg"
+
 		],
 		
 	 ];
