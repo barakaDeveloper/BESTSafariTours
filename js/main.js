@@ -444,6 +444,54 @@ $(document).ready(function(){
 			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-dining.jpeg"
 
 		],
+		[
+			// ---------------Marera valley Lodge ------------------------7--------
+			"images/Packages-images/LODGES/marera-valley-lodge-karatu-outside.gif",
+			"images/Packages-images/LODGES/marera-valley-view-karatu-room-1.jpg",
+			"images/Packages-images/LODGES/marera-valley-view-karatu-room-2.jpg" ,
+			"images/Packages-images/LODGES/marera-valley-view-karatu-swimming.jpg" 
+
+		],
+		[
+			// ---------------Tukaone Camp------------------------8--------
+
+			"images/Packages-images/LODGES/tukaone-camp-dining-1.jpg",
+			"images/Packages-images/LODGES/tukaone-camp-room-1.jpg" ,
+			"images/Packages-images/LODGES/tukaone-camp-outside-view.jpg",
+			"images/Packages-images/LODGES/tukaone-camp-tent-1.jpg" 
+
+		],
+		
+		[
+			// ---------------Ngorongoro Kuhama Camp------------------------9--------
+
+			"images/Packages-images/LODGES/Ngorongoro-Kuhama-dining.jpg",
+			"images/Packages-images/LODGES/Ngorongoro-Kuhama-room-2.webp",
+			"images/Packages-images/LODGES/Ngorongoro-Kuhama-room-3.jpg",
+			"images/Packages-images/LODGES/Ngorongoro-Kuhama-Camp-tent-2.jpg"
+
+		],
+		[
+			// ---------------Ahadi Lodge Arusha------------------------10--------
+
+			"images/Packages-images/LODGES/Ahadi-Lodge-1.png",
+			"images/Packages-images/LODGES/Ahadi-Lodge-3.png",
+			"images/Packages-images/LODGES/ahadi-lodge-dining.jpg",
+			"images/Packages-images/LODGES/Ahadi-triple-family-room.jpg",
+			"images/Packages-images/LODGES/Ahadi-Double-Room-1.jpg"
+
+		],
+		[
+			// ---------------Ahadi Lodge Arusha------------------------11--------
+
+			"images/Packages-images/LODGES/country-lodge-exterior.jpg",
+			"images/Packages-images/LODGES/Country-Lodge-Standard-room.jpg",
+			"images/Packages-images/LODGES/country-lodge-pool.jpg",
+			"images/Packages-images/LODGES/Country-Lodge-Dining.jpeg",
+			"images/Packages-images/LODGES/Country-Lodge-exterior.jpg",
+			"images/Packages-images/LODGES/Country-Lodge-blocks.jpg"
+
+		],
 		
 	 ];
 	 

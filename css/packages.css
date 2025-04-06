@@ -6,6 +6,10 @@ body li {
   color: rgb(122, 120, 120);
 }
 
+/* .navbar-brand .logo {
+  width: 100px;
+  height: 60px;
+} */
 .package-container span {
   font-size: 16px;
 }
@@ -101,7 +105,7 @@ body li {
 
 .quote-section {
   width: 30%;
-  max-height: 500px;
+  max-height: auto;
   background: #fff;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);

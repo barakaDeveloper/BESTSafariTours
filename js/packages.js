@@ -5,12 +5,12 @@ const tourData = {
      1: `
                     <div class="col-md-4 page-1-package">
 						<div class="project-wrap">
-							<a href="pckg-demo.html" class="img" style="background-image: url(images/Migration.jpeg);">
+							<a href="5-Days-Serengeti-Great-Migration.html " target="_blank" class="img" style="background-image: url(images/Migration.jpeg);">
 								<span class="price">$1,740/person</span>
 							</a>
 							<div class="text p-4">
 								<span class="days">4-Days Tour | 3-Night</span>
-								<h3 style="font-weight: 700; margin-bottom: 15px;"><a href="pckg-demo.html">Serengeti Great Migration | Mara River Crossing Safari</a></h3>
+								<h3 style="font-weight: 700; margin-bottom: 15px;"><a href="5-Days-Serengeti-Great-Migration.html" target="_blank">Serengeti Great Migration | Mara River Crossing Safari</a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
@@ -23,18 +23,18 @@ const tourData = {
 									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
 									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
 								</ul>
-                                        <span><a href="pckg-demo.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
+                                        <span><a href="5-Days-Serengeti-Great-Migration.html" target="_blank" class="btn btn-primary custom-btn mt-4">Read more</a></span>
 							</div>
 						</div>
 				</div>
 					<div class="col-md-4 page-1-package">
 						<div class="project-wrap">
-							<a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html" class="img" style="background-image: url(images/Packages-images/ngorongoro-crater-rhino.jpeg);">
+							<a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html" target="_blank"  class="img" style="background-image: url(images/Packages-images/ngorongoro-crater-rhino.jpeg);">
 								<span class="price">$550/person</span>
 							</a>
 							<div class="text p-4">
 								<span class="days">6-Day Tour | 5-Night</span>
-								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html"> Tarangire, Manyara, Ngorongoro & Lake Eyasi </a></h3>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html" target="_blank" > Tarangire, Manyara, Ngorongoro & Lake Eyasi </a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
@@ -48,18 +48,18 @@ const tourData = {
 									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
 									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
 								</ul>
-                                         <span><a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
+                                         <span><a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html" target="_blank"  class="btn btn-primary custom-btn mt-4">Read more</a></span>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-4 page-1-package">
 						<div class="project-wrap">
-							<a href="4-Day-Tara-Sere-Crater.html" class="img" style="background-image: url(images/tarangire.jpg);">
+							<a href="4-Day-Tara-Sere-Crater.html" target="_blank"  class="img" style="background-image: url(images/tarangire.jpg);">
 								<span class="price">$550/person</span>
 							</a>
 							<div class="text p-4">
 								<span class="days">5 Days Tour | 4-Night</span>
-								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="4-Day-Tara-Sere-Crater.html"> Iconic Destinations | Tarangire, Serengeti & Crater</a></h3>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="4-Day-Tara-Sere-Crater.html" target="_blank" > Iconic Destinations | Tarangire, Serengeti & Crater</a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
@@ -72,7 +72,7 @@ const tourData = {
 									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
 									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
 								</ul>
-                                         <span><a href="4-Day-Tara-Sere-Crater.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
+                                         <span><a href="4-Day-Tara-Sere-Crater.html" target="_blank"  class="btn btn-primary custom-btn mt-4">Read more</a></span>
 							</div>
 						</div>
 					</div>
@@ -153,6 +153,159 @@ const tourData = {
 
 
      `,
+     2: `
+                    <div class="col-md-4 page-2-package">
+						<div class="project-wrap">
+							<a href="4-Days-budget-safari-tarangire-ngorongoro.html" target="_blank" class="img" style="background-image: url(images/Packages-images/4-days-Leopard.jpg);">
+								<span class="price">$1,740/person</span>
+							</a>
+							<div class="text p-4">
+								<span class="days">4-Days Tour | 3-Night</span>
+								<h3 style="font-weight: 700; margin-bottom: 15px;"><a href="4-Days-budget-safari-tarangire-ngorongoro.html" target="_blank">4-Day Budget Safari | Tarangire & Ngorongoro</a></h3>
+								<p class="star">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+								<p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts)</p>
+								<ul class="mb-4">
+									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
+									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
+								</ul>
+                                        <span><a href="4-Days-budget-safari-tarangire-ngorongoro.html" target="_blank" class="btn btn-primary custom-btn mt-4">Read more</a></span>
+							</div>
+						</div>
+				</div>
+					<div class="col-md-4 page-1-package">
+						<div class="project-wrap">
+							<a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html" target="_blank"  class="img" style="background-image: url(images/Packages-images/ngorongoro-crater-rhino.jpeg);">
+								<span class="price">$550/person</span>
+							</a>
+							<div class="text p-4">
+								<span class="days">6-Day Tour | 5-Night</span>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html" target="_blank" > Tarangire, Manyara, Ngorongoro & Lake Eyasi </a></h3>
+								<p class="star">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+								<p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts)</p>
+							
+								<ul class="mb-4">
+									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
+									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
+								</ul>
+                                         <span><a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html" target="_blank"  class="btn btn-primary custom-btn mt-4">Read more</a></span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 page-1-package">
+						<div class="project-wrap">
+							<a href="4-Day-Tara-Sere-Crater.html" target="_blank"  class="img" style="background-image: url(images/tarangire.jpg);">
+								<span class="price">$550/person</span>
+							</a>
+							<div class="text p-4">
+								<span class="days">5 Days Tour | 4-Night</span>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="4-Day-Tara-Sere-Crater.html" target="_blank" > Iconic Destinations | Tarangire, Serengeti & Crater</a></h3>
+								<p class="star">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+								<p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts)</p>
+								<ul class="mb-4">
+									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
+									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
+								</ul>
+                                         <span><a href="4-Day-Tara-Sere-Crater.html" target="_blank"  class="btn btn-primary custom-btn mt-4">Read more</a></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 page-1-package">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(placesmages/zanzibar-place.jpg);">
+								<span class="price">$550/person</span>
+							</a>
+							<div class="text p-4">
+								<span class="days">6 Days Tour</span>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="#">Zanzibar | Kendwa Beach | Pemba Island | Unguja Island</a></h3>
+								<p class="star">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+								<p class="location"><span class="fa fa-map-marker-alt"></span> Zanzibar/ Arusha(Starts)</p>
+								<ul class="mb-4">
+									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
+									<li><span class="fas fa-umbrella-beach"></span>Near Beach</li>
+								</ul>
+                                         <span><a href="package-4.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 page-1-package">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(placesmages/MT-kilimanjaro.jpg);">
+								<span class="price">$550/person</span>
+							</a>
+							<div class="text p-4">
+								<span class="days">10-Days Tour</span>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="#"> Kilimanjaro | Safari To Serenget & NgoroNgoro</a></h3>
+								<p class="star">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+								<p class="location"><span class="fa fa-map-marker-alt"></span> Serenget(Starts)</p>
+								<ul class="mb-4">
+									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
+									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
+									<!-- <li><span class="flaticon-sun-umbrella"></span>Near Beach</li> -->
+								</ul>
+                                         <span><a href="package-5.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
+							</div>
+						</div>
+					</div>
+				<div class="col-md-4 page-1-package">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(placesmages/MT-meru.jpg);">
+								<span class="price">$550/person</span>
+							</a>
+							<div class="text p-4">
+								<span class="days">10 Days Tour</span>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="#"> Mt Meru | Kilimanjaro | Safari To Serenget & NgoroNgoro</a></h3>
+								<p class="star">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+								<p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Strarts)</p>
+								<ul class="mb-4">
+									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
+									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
+								</ul>
+                                         <span><a href="package-6.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
+							</div>
+						</div>
+				</div>
+
+
+     `,
+
+
 
  };
 

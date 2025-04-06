@@ -90,10 +90,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             $mail->Port = 587;
 
             // Send confirmation email to the client
-            $mail->setFrom('bmsafaristanzania@gmail.com', 'BM Safaris');
+            $mail->setFrom('bmsafaristanzania@gmail.com', 'BEST Safaris');
             $mail->addAddress($email, $full_name);
             $mail->isHTML(true);
-            $mail->Subject = 'Booking Confirmation - BM Safaris Tanzania';
+            $mail->Subject = 'Booking Confirmation - BEST Safaris Tanzania';
             $mail->Body = "
                 <h1>Thank you for booking with BM Safaris!</h1>
                 <p>Your booking to <strong>$destination</strong> has been received.</p>
