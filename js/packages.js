@@ -9,19 +9,20 @@ const tourData = {
 								<span class="price">$1,740/person</span>
 							</a>
 							<div class="text p-4">
-								<span class="days">4-Days Tour | 3-Night</span>
-								<h3 style="font-weight: 700; margin-bottom: 15px;"><a href="5-Days-Serengeti-Great-Migration.html" target="_blank">Serengeti Great Migration | Mara River Crossing Safari</a></h3>
+								<span class="days">5-Days ( Private ) Tour | 4-Night</span>
+								<h3 style="font-weight: 700; margin-bottom: 15px;"><a href="5-Days-Serengeti-Great-Migration.html" target="_blank">5-Days Serengeti Great Migration | Mara River Crossing Safari</a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
-											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span><br>
+											<span>5/5 (86 Reviews)</span>
 										</p>
 								<p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts)</p>
 								<ul class="mb-4">
-									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
-									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
+									<li><span class="fas fa-campground"></span>Camping Available</li>
+									<li><span class="fas fa-hotel"></span>Lodges Available</li>
 								</ul>
                                         <span><a href="5-Days-Serengeti-Great-Migration.html" target="_blank" class="btn btn-primary custom-btn mt-4">Read more</a></span>
 							</div>
@@ -33,20 +34,21 @@ const tourData = {
 								<span class="price">$550/person</span>
 							</a>
 							<div class="text p-4">
-								<span class="days">6-Day Tour | 5-Night</span>
-								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html" target="_blank" > Tarangire, Manyara, Ngorongoro & Lake Eyasi </a></h3>
+								<span class="days">6-Day ( Private ) Tour | 5-Night</span>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html" target="_blank" >6-Days Tarangire, Manyara, Ngorongoro & Lake Eyasi </a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
-											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span><br>
+											<span>5/5 (48 Reviews)</span>
 										</p>
 								<p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts)</p>
 							
 								<ul class="mb-4">
-									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
-									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
+									<li><span class="fas fa-campground"></span>Camping Available</li>
+									<li><span class="fas fa-hotel"></span>Lodges Available</li>
 								</ul>
                                          <span><a href="6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html" target="_blank"  class="btn btn-primary custom-btn mt-4">Read more</a></span>
 							</div>
@@ -58,49 +60,52 @@ const tourData = {
 								<span class="price">$550/person</span>
 							</a>
 							<div class="text p-4">
-								<span class="days">5 Days Tour | 4-Night</span>
-								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="4-Day-Tara-Sere-Crater.html" target="_blank" > Iconic Destinations | Tarangire, Serengeti & Crater</a></h3>
+								<span class="days">5-Days ( Private ) Tour | 4-Night</span>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="4-Day-Tara-Sere-Crater.html" target="_blank" >5-Days Iconic Destinations | Tarangire, Serengeti & Crater</a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
-											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span><br>
+											<span>5/5 (53 Reviews)</span>
 										</p>
 								<p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts)</p>
 								<ul class="mb-4">
-									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
-									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
+									<li><span class="fas fa-campground"></span>Camping Available</li>
+									<li><span class="fas fa-hotel"></span>Lodges Available</li>
 								</ul>
                                          <span><a href="4-Day-Tara-Sere-Crater.html" target="_blank"  class="btn btn-primary custom-btn mt-4">Read more</a></span>
 							</div>
 						</div>
 					</div>
-
-					<div class="col-md-4 page-1-package">
+				 <div class="col-md-4 page-2-package">
 						<div class="project-wrap">
-							<a href="#" class="img" style="background-image: url(placesmages/zanzibar-place.jpg);">
-								<span class="price">$550/person</span>
+							<a href="4-Days-budget-safari-tarangire-ngorongoro.html" target="_blank" class="img" style="background-image: url(images/Packages-images/4-days-Leopard.jpg);">
+								<span class="price">$1,740/person</span>
 							</a>
 							<div class="text p-4">
-								<span class="days">6 Days Tour</span>
-								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="#">Zanzibar | Kendwa Beach | Pemba Island | Unguja Island</a></h3>
+								<span class="days">4-Days ( Private ) Tour | 2-Night</span>
+								<h3 style="font-weight: 700; margin-bottom: 15px;"><a href="4-Days-budget-safari-tarangire-ngorongoro.html" target="_blank">4-Days Budget Safari | Tarangire & Ngorongoro Crater</a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
-											<span class="fa fa-star"></span>
+											<span class="fa fa-star-half-alt checked"></span><br>
+											<span>4.8/5 (29 Reviews)</span>
+											
 										</p>
-								<p class="location"><span class="fa fa-map-marker-alt"></span> Zanzibar/ Arusha(Starts)</p>
+								<p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts & Ends)</p>
 								<ul class="mb-4">
-									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
-									<li><span class="fas fa-umbrella-beach"></span>Near Beach</li>
+									<li><span class="fas fa-campground"></span>Camping Available</li>
+									<li><span class="fas fa-hotel"></span>Lodges Available</li>
 								</ul>
-                                         <span><a href="package-4.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
+                                        <span><a href="4-Days-budget-safari-tarangire-ngorongoro.html" target="_blank" class="btn btn-primary custom-btn mt-4">Read more</a></span>
 							</div>
 						</div>
-					</div>
+				</div>
+					
 					<div class="col-md-4 page-1-package">
 						<div class="project-wrap">
 							<a href="#" class="img" style="background-image: url(placesmages/MT-kilimanjaro.jpg);">
@@ -161,15 +166,15 @@ const tourData = {
 							</a>
 							<div class="text p-4">
 								<span class="days">4-Days Tour | 3-Night</span>
-								<h3 style="font-weight: 700; margin-bottom: 15px;"><a href="4-Days-budget-safari-tarangire-ngorongoro.html" target="_blank">4-Day Budget Safari | Tarangire & Ngorongoro</a></h3>
+								<h3 style="font-weight: 700; margin-bottom: 15px;"><a href="4-Days-budget-safari-tarangire-ngorongoro.html" target="_blank">4-Days Budget Safari | Tarangire & Ngorongoro Crater</a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
-											<span class="fa fa-star"></span>
+											<span class="fa fa-star-half-alt checked"></span>
 										</p>
-								<p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts)</p>
+								<p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts & Ends)</p>
 								<ul class="mb-4">
 									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
 									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
