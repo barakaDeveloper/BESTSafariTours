@@ -106,52 +106,55 @@ const tourData = {
 						</div>
 				</div>
 					
-					<div class="col-md-4 page-1-package">
+				 <div class="col-md-4 page-2-package">
 						<div class="project-wrap">
-							<a href="#" class="img" style="background-image: url(placesmages/MT-kilimanjaro.jpg);">
-								<span class="price">$550/person</span>
+							<a href="4-Days-serengeri-ngorongoro-joining-safari.html" target="_blank" class="img" style="background-image: url(images/Packages-images/Lion-serengeti-1.jpg);">
+								<span class="price">$798/person</span>
 							</a>
 							<div class="text p-4">
-								<span class="days">10-Days Tour</span>
-								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="#"> Kilimanjaro | Safari To Serenget & NgoroNgoro</a></h3>
+								<span class="days">4-Days ( Joining ) Tour | 2-Night</span>
+								<h3 style="font-weight: 700; margin-bottom: 15px;"><a href="4-Days-serengeri-ngorongoro-joining-safari.html" target="_blank">4-Days Joining Safari | Serengeti & Ngorongoro Crater</a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
-											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span><br>
+											<span>5/5 (39 Reviews)</span>
+											
 										</p>
-								<p class="location"><span class="fa fa-map-marker-alt"></span> Serenget(Starts)</p>
+								<p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts & Ends)</p>
 								<ul class="mb-4">
-									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
-									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
-									<!-- <li><span class="flaticon-sun-umbrella"></span>Near Beach</li> -->
+									<li><span class="fas fa-campground"></span>Camping Available</li>
+									<li><span class="fas fa-hotel"></span>Lodges Available</li>
 								</ul>
-                                         <span><a href="package-5.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
+                                        <span><a href="4-Days-serengeri-ngorongoro-joining-safari.html" target="_blank" class="btn btn-primary custom-btn mt-4">Read more</a></span>
 							</div>
 						</div>
-					</div>
+				</div>
+
 				<div class="col-md-4 page-1-package">
 						<div class="project-wrap">
-							<a href="#" class="img" style="background-image: url(placesmages/MT-meru.jpg);">
+							<a href="1-Day-materuni-waterfalls-kikuletwa-hotspring-trip.html" target="_blank" class="img" style="background-image: url(images/Destinations/materuni-waterfall-desc.jpg);">
 								<span class="price">$550/person</span>
 							</a>
 							<div class="text p-4">
-								<span class="days">10 Days Tour</span>
-								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="#"> Mt Meru | Kilimanjaro | Safari To Serenget & NgoroNgoro</a></h3>
+								<span class="days">Full-Day Adventure</span>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="1-Day-materuni-waterfalls-kikuletwa-hotspring-trip.html" target="_blank"> 1-Day Materuni Waterfalls | Coffee Tour & Hot Spring</a></h3>
 								<p class="star">
+										<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
-											<span class="fa fa-star"></span>
-											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span><br>
+											<span>5/5 (15 Reviews)</span>
 										</p>
-								<p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Strarts)</p>
+								<p class="location"><span class="fa fa-map-marker-alt"></span> Arusha/ Moshi (Strarts & Ends)</p>
 								<ul class="mb-4">
-									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
-									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
+									<li><span class="fas fa-swimming-pool "></span>Swimming Available</li>
+									<li><span class="fas fa-coffee"></span>Coffee Making Process</li>
 								</ul>
-                                         <span><a href="package-6.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
+                                         <span><a href="1-Day-materuni-waterfalls-kikuletwa-hotspring-trip.html" target="_blank" class="btn btn-primary custom-btn mt-4">Read more</a></span>
 							</div>
 						</div>
 				</div>
