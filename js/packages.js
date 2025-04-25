@@ -34,7 +34,7 @@ const tourData = {
 								<span class="price">$1,980/person</span>
 							</a>
 							<div class="text p-4">
-								<span class="days">6-Day ( Private ) Tour | 5-Night</span>
+								<span class="days">6-Days ( Private ) Tour | 5-Night</span>
 								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="Safari/6-Day-Tarangire-Manyara-Ngorongoro-Lake-Eyasi.html" target="_blank" >6-Days Tarangire, Manyara, Ngorongoro & Lake Eyasi </a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
@@ -263,26 +263,25 @@ const tourData = {
 					
 					<div class="col-md-4 page-1-package">
 						<div class="project-wrap">
-							<a href="#" class="img" style="background-image: url(placesmages/MT-kilimanjaro.jpg);">
-								<span class="price">$550/person</span>
+							<a href="Safari/6-Days-Serengeti-Ngorongoro-Crater-Lake-Eyasi-Safari.html" class="img" style="background-image: url(../images/Packages-images/zebra-serengeti.jpg);">
+								<span class="price">$2,120/person</span>
 							</a>
 							<div class="text p-4">
-								<span class="days">10-Days Tour</span>
-								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="#"> Kilimanjaro | Safari To Serenget & NgoroNgoro</a></h3>
+								<span class="days">6-Days ( Private ) Tour | 5-Nights</span>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="Safari/6-Days-Serengeti-Ngorongoro-Crater-Lake-Eyasi-Safari.html">6-Days Serengeti, Ngorongoro Crater & Lake Eyasi</a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
-											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span><br>
+											<span>5/5 (84 Reviews)</span>
 										</p>
-								<p class="location"><span class="fa fa-map-marker-alt"></span> Serenget(Starts)</p>
+								<p class="location"><span class="fa fa-map-marker-alt"></span> Arusha(Starts & Ends)</p>
 								<ul class="mb-4">
-									<li><span><i class="fas fa-campground"></i></span>Camping Available</li>
 									<li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
-									<!-- <li><span class="flaticon-sun-umbrella"></span>Near Beach</li> -->
 								</ul>
-                                         <span><a href="package-5.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
+                                         <span><a href="Safari/6-Days-Serengeti-Ngorongoro-Crater-Lake-Eyasi-Safari.html" class="btn btn-primary custom-btn mt-4">Read more</a></span>
 							</div>
 						</div>
 					</div>
