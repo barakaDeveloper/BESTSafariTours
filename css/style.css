@@ -8222,7 +8222,12 @@ color: #ffffff;
   margin-right: 10px;
   color: #b3b3b3;
 }
-.project-wrap .text ul li span {
+.project-wrap .text ul li span{
+  color: #009933;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.project-wrap .text ul li span i{
   color: #009933;
   margin-right: 10px;
   font-size: 20px;

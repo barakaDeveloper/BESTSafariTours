@@ -423,73 +423,73 @@ $(document).ready(function(){
             
 			// ---------------Lake Manyara Tortilis Camp gallery ------------5--------
 
-			"images/Packages-images/LODGES/comfortable-tent-tortilis-camps.jpg",
-			"images/Packages-images/LODGES/lake-manyara-tortilis-camp-food.jpg",
-			"images/Packages-images/LODGES/lake-manyara-tortilis-camp-king-bed.jpg",
-			"images/Packages-images/LODGES/lake-manyara-tortilis-fire-camp-view.jpg",
-			"images/Packages-images/LODGES/lake-manyara-tortilis-camp-top-view.jpg"
+			"../images/Packages-images/LODGES/comfortable-tent-tortilis-camps.jpg",
+			"../images/Packages-images/LODGES/lake-manyara-tortilis-camp-food.jpg",
+			"../images/Packages-images/LODGES/lake-manyara-tortilis-camp-king-bed.jpg",
+			"../images/Packages-images/LODGES/lake-manyara-tortilis-fire-camp-view.jpg",
+			"../images/Packages-images/LODGES/lake-manyara-tortilis-camp-top-view.jpg"
 			
 			
 		],
 		[
 			// ---------------Lake Eyasi Lodge ------------------------6--------
 
-			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-room-1.jpeg",
-			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-room-2.jpeg",
-			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-room-3.jpeg",
-			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-room-4.jpeg",
-			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-swimming-pool.jpeg",
-			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-outdoor.jpeg",
-			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-view.jpeg",
-			"images/Packages-images/LODGES/lake-eyasi-safari-lodge-dining.jpeg"
+			"../images/Packages-images/LODGES/lake-eyasi-safari-lodge-room-1.jpeg",
+			"../images/Packages-images/LODGES/lake-eyasi-safari-lodge-room-2.jpeg",
+			"../images/Packages-images/LODGES/lake-eyasi-safari-lodge-room-3.jpeg",
+			"../images/Packages-images/LODGES/lake-eyasi-safari-lodge-room-4.jpeg",
+			"../images/Packages-images/LODGES/lake-eyasi-safari-lodge-swimming-pool.jpeg",
+			"../images/Packages-images/LODGES/lake-eyasi-safari-lodge-outdoor.jpeg",
+			"../images/Packages-images/LODGES/lake-eyasi-safari-lodge-view.jpeg",
+			"../images/Packages-images/LODGES/lake-eyasi-safari-lodge-dining.jpeg"
 
 		],
 		[
 			// ---------------Marera valley Lodge ------------------------7--------
-			"images/Packages-images/LODGES/marera-valley-lodge-karatu-outside.gif",
-			"images/Packages-images/LODGES/marera-valley-view-karatu-room-1.jpg",
-			"images/Packages-images/LODGES/marera-valley-view-karatu-room-2.jpg" ,
-			"images/Packages-images/LODGES/marera-valley-view-karatu-swimming.jpg" 
+			"../images/Packages-images/LODGES/marera-valley-lodge-karatu-outside.gif",
+			"../images/Packages-images/LODGES/marera-valley-view-karatu-room-1.jpg",
+			"../images/Packages-images/LODGES/marera-valley-view-karatu-room-2.jpg" ,
+			"../images/Packages-images/LODGES/marera-valley-view-karatu-swimming.jpg" 
 
 		],
 		[
 			// ---------------Tukaone Camp------------------------8--------
 
-			"images/Packages-images/LODGES/tukaone-camp-dining-1.jpg",
-			"images/Packages-images/LODGES/tukaone-camp-room-1.jpg" ,
-			"images/Packages-images/LODGES/tukaone-camp-outside-view.jpg",
-			"images/Packages-images/LODGES/tukaone-camp-tent-1.jpg" 
+			"../images/Packages-images/LODGES/tukaone-camp-dining-1.jpg",
+			"../images/Packages-images/LODGES/tukaone-camp-room-1.jpg" ,
+			"../images/Packages-images/LODGES/tukaone-camp-outside-view.jpg",
+			"../images/Packages-images/LODGES/tukaone-camp-tent-1.jpg" 
 
 		],
 		
 		[
 			// ---------------Ngorongoro Kuhama Camp------------------------9--------
 
-			"images/Packages-images/LODGES/Ngorongoro-Kuhama-dining.jpg",
-			"images/Packages-images/LODGES/Ngorongoro-Kuhama-room-2.webp",
-			"images/Packages-images/LODGES/Ngorongoro-Kuhama-room-3.jpg",
-			"images/Packages-images/LODGES/Ngorongoro-Kuhama-Camp-tent-2.jpg"
+			"../images/Packages-images/LODGES/Ngorongoro-Kuhama-dining.jpg",
+			"../images/Packages-images/LODGES/Ngorongoro-Kuhama-room-2.webp",
+			"../images/Packages-images/LODGES/Ngorongoro-Kuhama-room-3.jpg",
+			"../images/Packages-images/LODGES/Ngorongoro-Kuhama-Camp-tent-2.jpg"
 
 		],
 		[
 			// ---------------Ahadi Lodge Arusha------------------------10--------
 
-			"images/Packages-images/LODGES/Ahadi-Lodge-1.png",
-			"images/Packages-images/LODGES/Ahadi-Lodge-3.png",
-			"images/Packages-images/LODGES/ahadi-lodge-dining.jpg",
-			"images/Packages-images/LODGES/Ahadi-triple-family-room.jpg",
-			"images/Packages-images/LODGES/Ahadi-Double-Room-1.jpg"
+			"../images/Packages-images/LODGES/Ahadi-Lodge-1.png",
+			"../images/Packages-images/LODGES/Ahadi-Lodge-3.png",
+			"../images/Packages-images/LODGES/ahadi-lodge-dining.jpg",
+			"../images/Packages-images/LODGES/Ahadi-triple-family-room.jpg",
+			"../images/Packages-images/LODGES/Ahadi-Double-Room-1.jpg"
 
 		],
 		[
 			// ---------------Ahadi Lodge Arusha------------------------11--------
 
-			"images/Packages-images/LODGES/country-lodge-exterior.jpg",
-			"images/Packages-images/LODGES/Country-Lodge-Standard-room.jpg",
-			"images/Packages-images/LODGES/country-lodge-pool.jpg",
-			"images/Packages-images/LODGES/Country-Lodge-Dining.jpeg",
-			"images/Packages-images/LODGES/Country-Lodge-exterior.jpg",
-			"images/Packages-images/LODGES/Country-Lodge-blocks.jpg"
+			"../images/Packages-images/LODGES/country-lodge-exterior.jpg",
+			"../images/Packages-images/LODGES/Country-Lodge-Standard-room.jpg",
+			"../images/Packages-images/LODGES/country-lodge-pool.jpg",
+			"../images/Packages-images/LODGES/Country-Lodge-Dining.jpeg",
+			"../images/Packages-images/LODGES/Country-Lodge-exterior.jpg",
+			"../images/Packages-images/LODGES/Country-Lodge-blocks.jpg"
 
 		],
 		

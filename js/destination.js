@@ -96,7 +96,7 @@ const tourData = {
             the island's rich cultural heritage.</p>
         <ul>
             <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
-            <li><span class="fas fa-umbrella-beach"></span>Near Beach</li>
+            <li><span><i class="fas fa-umbrella-beach"></i></span>Near Beach</li>
         </ul>
         <a href="zanzibar.html" class="read-more">Read More</a>
     </div>
