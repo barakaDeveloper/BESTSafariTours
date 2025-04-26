@@ -492,6 +492,17 @@ $(document).ready(function(){
 			"../images/Packages-images/LODGES/Country-Lodge-blocks.jpg"
 
 		],
+		[
+			// ---------------Mawe Mawe Lodge Mto wa mbu--------------------12--------
+
+			"../images/Packages-images/LODGES/mawe-mawe-outdoor.webp",
+			"../images/Packages-images/LODGES/mawe-mawe-lounge.webp",
+			"../images/Packages-images/LODGES/mawe-mawe-room-1.webp",
+			"../images/Packages-images/LODGES/mawe-mawe-room-2.webp",
+			"../images/Packages-images/LODGES/mawe-mawe-room-3.webp",
+			"../images/Packages-images/LODGES/mawe-mawe-room-4.webp",
+			"../images/Packages-images/LODGES/mawe-mawe-picnic-lunch.webp",		
+		],
 		
 	 ];
 	 
