@@ -24,11 +24,11 @@ const tourData = {
 </div>
 <div class="col-md-4 page1">
 <div class="project-wrap">
-    <a href="crater.html" class="img" style="background-image: url(images/Destinations/Crater-dest.jpg);">
+    <a href="../ngorongoro-crater.html" class="img" style="background-image: url(images/Destinations/Crater-dest.jpg);">
         <span class="price">$1,200 to 3,450/person</span>
     </a>
     <div class="text p-4">
-        <h3><a href="crater.html">Ngorongoro Crater | Wildlife Safari</a></h3>
+        <h3><a href="../ngorongoro-crater.html">Ngorongoro Crater | Wildlife Safari</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts), Ngorongoro (End)
         </p>
         <p>Home to an incredible diversity of wildlife, the Ngorongoro Crater offers stunning views and a
@@ -38,7 +38,7 @@ const tourData = {
             <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
             <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
         </ul>
-        <a href="crater.html" class="read-more">Read More</a>
+        <a href="../ngorongoro-crater.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>

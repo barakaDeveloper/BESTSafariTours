@@ -143,6 +143,23 @@ const tourData = {
         </div>
     </div>
 </div>
+     <div class="col-md-4 page2">
+    <div class="project-wrap">
+        <a href="mkomazi-national-park.html" target="_blank" class="img" style="background-image: url(./images/Destinations/An-adult-black-rhino-at-Mkomazi-National-Park-Tanzania.jpg);">
+            <span class="price">$800 to $4,500/person</span>
+        </a>
+        <div class="text p-4">
+            <h3><a href="mkomazi-national-park.html" target="_blank">Mkomazi National Park | Rare Wildlife Sanctuary</a></h3>
+            <p class="location"><span class="fa fa-map-marker-alt"></span> Kilimanjaro & Tanga Regions</p>
+            <p>Explore Tanzania’s hidden gem, home to endangered black rhinos, wild dogs, and the iconic gerenuk. A rugged, off-the-beaten-path safari experience bordering Kenya’s Tsavo West.</p>
+            <ul>
+                <li><span><i class="fas fa-paw"></i></span>Rhino Tracking</li>
+                <li><span><i class="fas fa-hotel"></i></span>Luxury Tented Camps</li>
+            </ul>
+            <a href="mkomazi-national-park.html" target="_blank"  class="read-more">Read More</a>
+        </div>
+    </div>
+</div>
         
 `
 
