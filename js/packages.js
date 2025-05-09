@@ -60,8 +60,8 @@ const tourData = {
 								<span class="price">$550/person</span>
 							</a>
 							<div class="text p-4">
-								<span class="days">5-Days ( Private ) Tour | 4-Night</span>
-								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="Safari/4-Days-Tarangire-Serengeti-NgorongoroCrater.html" target="_blank" >5-Days Iconic Destinations | Tarangire, Serengeti & Ngorongoro Crater</a></h3>
+								<span class="days">4-Days ( Private ) Tour | 3-Night</span>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="Safari/4-Days-Tarangire-Serengeti-NgorongoroCrater.html" target="_blank" >4-Days Iconic Destinations | Tarangire, Serengeti & Ngorongoro Crater</a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
