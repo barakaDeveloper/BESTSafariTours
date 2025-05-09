@@ -534,4 +534,4 @@ $(document).ready(function(){
 
 	const navbarBrand = document.querySelector('.navbar-brand');
 
-	navbarBrand.innerHTML = 'BEST<span><strong>Safari Tours</strong></span>';
+	navbarBrand.innerHTML = 'BEST<span><strong>Safari Tanzania</strong></span>';

@@ -8768,9 +8768,9 @@ FOOTER--------------------------------------
   font-size: 30px;
   display: block;
   margin-bottom: 5px;
-  color: #f15d30;
+  color: #049541;
   font-weight: 600;
-  font-family: "Arizonia", cursive;
+  font-family: 'Great Vibes', cursive;
 }
 
 .heading-section h2 {
@@ -8826,20 +8826,9 @@ FOOTER--------------------------------------
   right: 0;
   bottom: 0;
   content: "";
-  background: #207ce5;
-  background: -moz-linear-gradient(45deg, #207ce5 0%, #13d42a 100%);
-  background: -webkit-gradient(
-    left bottom,
-    right top,
-    color-stop(0%, #207ce5),
-    color-stop(100%, #13d42a)
-  );
-  background: -webkit-linear-gradient(45deg, #207ce5 0%, #13d42a 100%);
-  background: -o-linear-gradient(45deg, #207ce5 0%, #13d42a 100%);
-  background: -ms-linear-gradient(45deg, #207ce5 0%, #13d42a 100%);
-  background: linear-gradient(45deg, #207ce5 0%, #13d42a 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#207ce5', endColorstr='#13d42a', GradientType=1 );
-  opacity: 0.6;
+  background:rgba(34, 72, 28, 0.85);
+  background: -moz-linear-gradient(45deg,rgba(177, 177, 177, 0.55) 0%,rgba(93, 93, 93, 0.88) 100%);
+ 
 }
 .testimony-section .owl-carousel,
 .ftco-select-destination .owl-carousel {
@@ -8932,7 +8921,7 @@ FOOTER--------------------------------------
   height: 10px;
   margin: 5px;
   border-radius: 50%;
-  background: rgba(0, 0, 0, 0.1);
+  background: rgb(251, 251, 251);
 }
 .testimony-section .owl-dots .owl-dot.active,
 .testimony-section .owl-dots .owl-dot:focus,
@@ -8960,7 +8949,7 @@ FOOTER--------------------------------------
   width: 80px;
   height: 80px;
   position: relative;
-  border-radius: 0 50% 50% 50%;
+  border-radius: 50%;
 }
 .testimony-wrap .name {
   font-weight: 500;
