@@ -534,4 +534,4 @@ $(document).ready(function(){
 
 	const navbarBrand = document.querySelector('.navbar-brand');
 
-	navbarBrand.innerHTML = 'BEST<span><strong>Safari Tanzania</strong></span>';
+	navbarBrand.innerHTML = '<span class="Logo-img"><img src="../images/nav-brand.png" alt="Logo" style="width: 100px; height: 80px; border-radius: 50%;"></span>';

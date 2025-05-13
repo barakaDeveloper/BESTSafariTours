@@ -5,11 +5,11 @@ const tourData = {
      1: `
 <div class="col-md-4 page1">
 <div class="project-wrap">
-    <a href="mt-kilimanjaro.html" class="img" style="background-image: url(images/Destinations/kilimanjaro-dest.jpg);">
-        <span class="price">$2,000 to 5,750/person</span>
+    <a href="Mount-kilimanjaro.html" class="img" style="background-image: url(images/Destinations/kilimanjaro-dest.jpg);">
+
     </a>
     <div class="text p-4">
-        <h3><a href="mt-kilimanjaro.html">Mount Kilimanjaro | Machame Route Trek</a></h3>
+        <h3><a href="Mount-kilimanjaro.html">Mount Kilimanjaro | Machame Route Trek</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span> Moshi (Starts and Ends)</p>
         <p>Conquer Africa's highest peak with an unforgettable trek up Mount Kilimanjaro. The Machame Route,
             known for its scenic beauty, challenges and rewards trekkers with spectacular views and a sense
@@ -18,7 +18,7 @@ const tourData = {
             <li><span><i class="fas fa-hiking"></i></span>Trekking Available</li>
             <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
         </ul>
-        <a href="mt-kilimanjaro.html" class="read-more">Read More</a>
+        <a href="Mount-kilimanjaro.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>
@@ -27,7 +27,7 @@ const tourData = {
 <div class="col-md-4 page1">
 <div class="project-wrap">
     <a href="mount-meru.html" class="img" style="background-image: url(images/Destinations/mount-meru-dest.jpg);">
-        <span class="price">$2,000 to 5,000/person</span>
+
     </a>
     <div class="text p-4">
         <h3><a href="mount-meru.html">Mount Meru |Trekking & wildlife encounters</a></h3>
@@ -47,7 +47,6 @@ const tourData = {
 <div class="col-md-4 page1">
 <div class="project-wrap">
     <a href="ol-doinyo-lengai.html" class="img" style="background-image: url(images/Destinations/oldoinyo-lengai-dest.jpg);">
-        <span class="price">$1,950 to 5,050/person</span>
     </a>
     <div class="text p-4">
         <h3><a href="ol-doinyo-lengai.html">Ol Doinyo Lengai | Nighttime summit climbs</a></h3>
@@ -65,11 +64,11 @@ const tourData = {
 
 <div class="col-md-4 page3">
 <div class="project-wrap">
-    <a href="usambara.html" class="img" style="background-image: url(images/Destinations/usambala-dest.jpg);">
-        <span class="price">$1,500 to 2,543/person</span>
+    <a href="Usambara-Mountains.html" class="img" style="background-image: url(images/Destinations/usambala-dest.jpg);">
+
     </a>
     <div class="text p-4">
-        <h3><a href="usambara.html">Usambara Mountains | Hiking & cultural tours</a></h3>
+        <h3><a href="Usambara-Mountains.html">Usambara Mountains | Hiking & cultural tours</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span>Arusha (Starts),Tanga (Ends)</p>
         <p>The ranges of approximately 90 kilometres long and about half that wide, the Usambara Mountains are known for their lush green forests, cool climate, 
         and spectacular views over the plains below.</p>
@@ -77,7 +76,7 @@ const tourData = {
             <li><span><i class="fas fa-hiking"></i></span>Trekking Available</li>
             <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>  
         </ul>
-        <a href="usambara.html" class="read-more">Read More</a>
+        <a href="Usambara-Mountains.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>
@@ -85,7 +84,7 @@ const tourData = {
 <div class="col-md-4 page1">
 <div class="project-wrap">
     <a href="livingstone.html" class="img" style="background-image: url(images/Destinations/Livingstone-dest.jpg);">
-        <span class="price">$1,000 to 3,232/person</span>
+
     </a>
     <div class="text p-4">
         <h3><a href="livingstone.html">Livingstone Mountains | tunning lake views</a></h3>
@@ -108,7 +107,6 @@ const tourData = {
 <div class="col-md-4 page4">
     <div class="project-wrap">
         <a href="udzungwa.html" class="img" style="background-image: url(images/Destinations/udzungwa-mountains-dest.jpg);">
-            <span class="price">$600 to 2,432/person</span>
         </a>
         <div class="text p-4">
             <h3><a href="udzungwa.html">Udzungwa Mountains | Hiking and Waterfalls</a></h3>

@@ -3,6 +3,29 @@
 // Sample data for pages (replace this with actual data fetching)
 const tourData = {
      1: `
+
+     
+<div class="col-md-4 page1">
+<div class="project-wrap">
+    <a href="Tarangire-National-Park.html" class="img" style="background-image: url(images/Destinations/Tara-dest.jpg);">
+        <span class="price">$550 to 1,360/person</span>
+    </a>
+    <div class="text p-4">
+        <h3><a href="Tarangire-National-Park.html">Tarangire National Park | Elephant Safari</a></h3>
+        <p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts), Tarangire (End) </p>
+        <p>Known for its large elephant herds and baobab trees, Tarangire National Park offers a serene
+            safari experience. Enjoy close encounters with diverse wildlife in this lesser-visited gem of
+            Tanzania.</p>
+        <ul>
+            <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
+            <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
+        </ul>
+        <a href="Tarangire-National-Park.html" class="read-more">Read More</a>
+    </div>
+</div>
+</div>
+
+
 <div class="col-md-4 page4">
     <div class="project-wrap">
         <a href="materuni.html" class="img" style="background-image: url(images/Destinations/materuni.jpg);">
@@ -10,9 +33,9 @@ const tourData = {
         </a>
         <div class="text p-4">
             <span class="days">1 Day Tour</span>
-            <h3><a href="materuni.html">Materuni Village | Coffee & Waterfalls</a></h3>
+            <h3><a href="materuni.html">Materuni Waterfalls | Coffee Tour </a></h3>
             <p class="location"><span class="fa fa-map-marker-alt"></span> Moshi (Starts), Materuni (End)</p>
-            <p>Explore the lush landscapes of Materuni Village, famous for its breathtaking waterfalls and vibrant coffee plantations. Experience a guided tour of the coffee-making process, from bean to cup, while enjoying the stunning views of Kilimanjaro.</p>
+            <p>Explore the lush landscapes of Materuni Village, famous for its breathtaking waterfalls and vibrant coffee plantations. Experience a guided tour of the coffee-making process, from bean to cup.</p>
             <ul>
                 <li><span><i class="fas fa-coffee"></i></span>Coffee Plantation Tours</li>
                 <li><span><i class="fas fa-hiking"></i></span>Waterfall Hikes</li>
@@ -30,7 +53,7 @@ const tourData = {
         </a>
         <div class="text p-4">
             <span class="days">1 Day Tour</span>
-            <h3><a href="kikuletwa-hotspring.html">kikuletwa (Chemka) Hot Springs | Relaxation in Nature</a></h3>
+            <h3><a href="kikuletwa-hotspring.html">kikuletwa (Chemka) Hot Springs </a></h3>
             <p class="location"><span class="fa fa-map-marker-alt"></span> Moshi (Starts), Chemka (End)</p>
             <p>Unwind at Chemka Hot Springs, a hidden gem located in the heart of nature. Soak in the warm, clear waters surrounded by lush vegetation, and enjoy a picnic by the springs. It's the perfect spot to relax.</p>
             <ul>
@@ -97,7 +120,7 @@ const tourData = {
             <ul>
                 <li><span><i class="fas fa-tree"></i></span> Scenic Nature Walks</li>
                 <li><span><i class="fas fa-water"></i></span> Canoeing Adventures</li>
-                <li><span><i class="fas fa-binoculars"></i></span> Birdwatching Opportunities</li>
+                <li><span><i class="fas fa-binoculars"></i></span> Birdwatching </li>
             </ul>
             <a href="lake-duluti.html" class="read-more">Read More</a>
         </div>
@@ -106,6 +129,28 @@ const tourData = {
 
 
      ` ,
+     2: `
+     
+     
+<div class="col-md-4 page1">
+    <div class="project-wrap">
+        <a href="Arusha-National-Park.html" class="img" style="background-image: url(images/Destinations/Arusha-park-dest.jpg);">
+              <span class="price">$250/person</span>
+        </a>
+        <div class="text p-4">
+            <h3><a href="Arusha-National-Park.html">Arusha National Park | Scenic Safari</a></h3>
+            <p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts) and Arusha Town (Ends)</p>
+            <p>Discover the beauty of Arusha National Park, home to the scenic Momella Lakes and Mount Meru. Enjoy game drives, Photographic,Riding safari , and walking safaris in this diverse landscape.</p>
+            <ul>
+                <li><span><i class="fas fa-hiking"></i></span>Walking Safaris Available</li>
+                <li><span><i class="fa fa-bicycle"></i></span>Riding Tours</li>
+            </ul>
+            <a href="Arusha-National-Park.html" class="read-more">Read More</a>
+        </div>
+    </div>
+</div>
+     
+     `
 
  };
 

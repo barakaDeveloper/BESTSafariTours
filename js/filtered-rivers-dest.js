@@ -6,11 +6,11 @@ const tourData = {
 
 <div class="col-md-4 page3">
      <div class="project-wrap">
-         <a href="selous.html" class="img" style="background-image: url(images/Destinations/selous-dest.jpg);">
-             <span class="price">$1,000 to $2,000/person</span>
+         <a href="Selous-Game-Reserve.html" class="img" style="background-image: url(images/Destinations/selous-dest.jpg);">
+
          </a>
          <div class="text p-4">
-             <h3><a href="selous.html">Selous Game Reserve | Boat Safari</a></h3>
+             <h3><a href="Selous-Game-Reserve.html">Selous Game Reserve | Boat Safari</a></h3>
              <p class="location"><span class="fa fa-map-marker-alt"></span> Dar es Salaam (Starts), Selous (End)
              </p>
              <p>Explore the vast wilderness of Selous Game Reserve, one of Africa's largest protected areas.
@@ -20,7 +20,7 @@ const tourData = {
                  <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
                  <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
              </ul>
-             <a href="selous.html" class="read-more">Read More</a>
+             <a href="Selous-Game-Reserve.html" class="read-more">Read More</a>
          </div>
      </div>
 </div>
@@ -29,7 +29,6 @@ const tourData = {
 <div class="col-md-4 page4">
     <div class="project-wrap">
         <a href="rufiji.html" class="img" style="background-image: url(images/Destinations/Rufiji-river-dest.jpg);">
-            <span class="price">$1,054 to $2,060/person</span>
         </a>
         <div class="text p-4">
             <h3><a href="rufiji.html">Rufiji River | Boat Safari</a></h3>
@@ -47,7 +46,6 @@ const tourData = {
 <div class="col-md-4 page3">
      <div class="project-wrap">
          <a href="pangani.html" class="img" style="background-image: url(images/Destinations/Pangani_River_dest.jpg);">
-             <span class="price">$1,100 to $2,800/person</span>
          </a>
          <div class="text p-4">
              <h3><a href="pangani.html">Pangani River | Cultural and Fishing Tour</a></h3>
@@ -67,7 +65,6 @@ const tourData = {
 <div class="col-md-4 page2">
     <div class="project-wrap">
         <a href="gombe.html" class="img" style="background-image: url(images/Destinations/gombe-dest.jpg);">
-            <span class="price">$1,340 to $2,500/person</span>
         </a>
         <div class="text p-4">
             <h3><a href="gombe.html">Gombe Stream | Chimpanzee Tracking</a></h3>
@@ -86,7 +83,6 @@ const tourData = {
 <div class="col-md-4 page2">
     <div class="project-wrap">
         <a href="mara-river.html" class="img" style="background-image: url(images/Destinations/mara-river.jpg);">
-            <span class="price">$890 to $1,200/person</span>
         </a>
         <div class="text p-4">
             <h3><a href="mara-river.html">Mara River | The Great Migration</a></h3>
@@ -105,7 +101,6 @@ const tourData = {
 <div class="col-md-4 page2">
     <div class="project-wrap">
         <a href="kagera.html" class="img" style="background-image: url(images/Destinations/kagera-river.webp);">
-            <span class="price">$700 to $1,500/person</span>
         </a>
         <div class="text p-4">
             <h3><a href="kagera.html">Kagera River | Source of the Nile</a></h3>

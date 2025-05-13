@@ -5,11 +5,10 @@ const tourData = {
      1: `
 <div class="col-md-4 page1">
 <div class="project-wrap">
-    <a href="serengeti.html" class="img" style="background-image: url(images/Destinations/serengeti-dest.jpeg);">
-        <span class="price">$2,500 to 3,200/person</span>
+    <a href="Serengeti-National-Park.html" class="img" style="background-image: url(images/Destinations/serengeti-dest.jpeg);">
     </a>
     <div class="text p-4">
-        <h3><a href="serengeti.html">Serengeti National Park | Great Migration Safari</a></h3>
+        <h3><a href="Serengeti-National-Park.html">Serengeti National Park | Great Migration Safari</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts), Serengeti (End) </p>
         <p>Experience a millions of wildebeest, zebras, and gazelles
             migrate across the Serengeti plains, accompanied by breathtaking landscapes and diverse
@@ -18,14 +17,13 @@ const tourData = {
             <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
             <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
         </ul>
-        <a href="serengeti.html" class="read-more">Read More</a>
+        <a href="Serengeti-National-Park.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>
 <div class="col-md-4 page1">
 <div class="project-wrap">
     <a href="../ngorongoro-crater.html" class="img" style="background-image: url(images/Destinations/Crater-dest.jpg);">
-        <span class="price">$1,200 to 3,450/person</span>
     </a>
     <div class="text p-4">
         <h3><a href="../ngorongoro-crater.html">Ngorongoro Crater | Wildlife Safari</a></h3>
@@ -45,11 +43,10 @@ const tourData = {
 
 <div class="col-md-4 page1">
 <div class="project-wrap">
-    <a href="tarangire.html" class="img" style="background-image: url(images/Destinations/Tara-dest.jpg);">
-        <span class="price">$900 to 1,360/person</span>
+    <a href="Tarangire-National-Park.html" class="img" style="background-image: url(images/Destinations/Tara-dest.jpg);">
     </a>
     <div class="text p-4">
-        <h3><a href="tarangire.html">Tarangire National Park | Elephant Safari</a></h3>
+        <h3><a href="Tarangire-National-Park.html">Tarangire National Park | Elephant Safari</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts), Tarangire (End) </p>
         <p>Known for its large elephant herds and baobab trees, Tarangire National Park offers a serene
             safari experience. Enjoy close encounters with diverse wildlife in this lesser-visited gem of
@@ -58,18 +55,18 @@ const tourData = {
             <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
             <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
         </ul>
-        <a href="tarangire.html" class="read-more">Read More</a>
+        <a href="Tarangire-National-Park.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>
 
 <div class="col-md-4 page1">
 <div class="project-wrap">
-    <a href="mt-kilimanjaro.html" class="img" style="background-image: url(images/Destinations/kilimanjaro-dest.jpg);">
-        <span class="price">$2,000 to 2,121/person</span>
+    <a href="Mountain-kilimanjaro.html" class="img" style="background-image: url(images/Destinations/kilimanjaro-dest.jpg);">
+
     </a>
     <div class="text p-4">
-        <h3><a href="mt-kilimanjaro.html">Mount Kilimanjaro | Machame Route Trek</a></h3>
+        <h3><a href="Mountain-kilimanjaro.html">Mount Kilimanjaro | Machame Route Trek</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span> Moshi (Starts and Ends)</p>
         <p>Conquer Africa's highest peak with an unforgettable trek up Mount Kilimanjaro. The Machame Route,
             known for its scenic beauty, challenges and rewards trekkers with spectacular views and a sense
@@ -78,18 +75,18 @@ const tourData = {
             <li><span><i class="fas fa-hiking"></i></span>Trekking Available</li>
             <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
         </ul>
-        <a href="mt-kilimanjaro.html" class="read-more">Read More</a>
+        <a href="Mountain-kilimanjaro.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>
 
 <div class="col-md-4 page1">
 <div class="project-wrap">
-    <a href="zanzibar.html" class="img" style="background-image: url(images/Destinations/Zanzibar-dest.jpg);">
-        <span class="price">$1,500 to 2,830/person</span>
+    <a href="Zanzibar-holiday.html" class="img" style="background-image: url(images/Destinations/Zanzibar-dest.jpg);">
+
     </a>
     <div class="text p-4">
-        <h3><a href="zanzibar.html">Zanzibar Island | Beach and Culture Tour</a></h3>
+        <h3><a href="Zanzibar-holiday.html">Zanzibar Island | Beach and Culture Tour</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span> Zanzibar (Starts and Ends)</p>
         <p>Discover the exotic charm of Zanzibar, a tropical paradise with stunning beaches, historical
             spice plantations, and vibrant markets. Relax by the turquoise waters and immerse yourself in
@@ -98,7 +95,7 @@ const tourData = {
             <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
             <li><span><i class="fas fa-umbrella-beach"></i></span>Near Beach</li>
         </ul>
-        <a href="zanzibar.html" class="read-more">Read More</a>
+        <a href="Zanzibar-holiday.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>
@@ -106,7 +103,7 @@ const tourData = {
 <div class="col-md-4 page1">
 <div class="project-wrap">
     <a href="lake-manyara.html" class="img" style="background-image: url(images/Destinations/Lake-Manyara-dest.jpg);">
-        <span class="price">$1,100 to 3,800/person</span>
+
     </a>
     <div class="text p-4">
         <h3><a href="lake-manyara.html">Lake Manyara | Tree-Climbing Lions Safari</a></h3>
@@ -128,11 +125,10 @@ const tourData = {
      2: ` 
 <div class="col-md-4 page2">
 <div class="project-wrap">
-    <a href="mikumi.html" class="img" style="background-image: url(images/Destinations/mikumi-national-park2.jpeg);">
-        <span class="price">$1,000 to 4,325/person</span>
+    <a href="Mikumi-National-Park.html" class="img" style="background-image: url(images/Destinations/mikumi-national-park2.jpeg);">
     </a>
     <div class="text p-4">
-        <h3><a href="mikumi.html">Mikumi National Park | Game drives & Hippo pools</a></h3>
+        <h3><a href="Mikumi-National-Park.html">Mikumi National Park | Game drives & Hippo pools</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span> Dar es Salaam (Starts), Mikumi (End)
         </p>
         <p>Explore the vast wilderness of Mikumi National Park,
@@ -142,25 +138,26 @@ const tourData = {
             <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
             <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
         </ul>
-        <a href="mikumi.html" class="read-more">Read More</a>
+        <a href="Mikumi-National-Park.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>
 
-<div class="col-md-4 page2">
+
+<div class="col-md-4 page1">
     <div class="project-wrap">
-        <a href="arusha-park.html" class="img" style="background-image: url(images/Destinations/Arusha-park-dest.jpg);">
-            <span class="price">$800 to 1,920/person</span>
+        <a href="Arusha-National-Park.html" class="img" style="background-image: url(images/Destinations/Arusha-park-dest.jpg);">
+        
         </a>
         <div class="text p-4">
-            <h3><a href="arusha-park.html">Arusha National Park | Scenic Safari</a></h3>
+            <h3><a href="Arusha-National-Park.html">Arusha National Park | Scenic Safari</a></h3>
             <p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts) and Arusha Town (Ends)</p>
             <p>Discover the beauty of Arusha National Park, home to the scenic Momella Lakes and Mount Meru. Enjoy game drives, Photographic,Riding safari , and walking safaris in this diverse landscape.</p>
             <ul>
                 <li><span><i class="fas fa-hiking"></i></span>Walking Safaris Available</li>
                 <li><span><i class="fa fa-bicycle"></i></span>Riding Tours</li>
             </ul>
-            <a href="arusha-park.html" class="read-more">Read More</a>
+            <a href="Arusha-National-Park.html" class="read-more">Read More</a>
         </div>
     </div>
 </div>
@@ -168,7 +165,6 @@ const tourData = {
 <div class="col-md-4 page2">
     <div class="project-wrap">
         <a href="lake-natron.html" class="img" style="background-image: url(images/Destinations/natron-dest.jpg);">
-            <span class="price">$3,350 to  4,460 /person</span>
         </a>
         <div class="text p-4">
             <h3><a href="lake-natron.html">Lake Natron | Flamingos and Volcanic Views</a></h3>
@@ -187,7 +183,6 @@ const tourData = {
 <div class="col-md-4 page2">
     <div class="project-wrap">
         <a href="pemba.html" class="img" style="background-image: url(images/Destinations/pemba-island-dest.jpg);">
-            <span class="price">$1,200 to 3,237/person</span>
         </a>
         <div class="text p-4">
             <h3><a href="pemba.html">Pemba Island | Diving and Culture</a></h3>
@@ -205,7 +200,6 @@ const tourData = {
 <div class="col-md-4 page2">
     <div class="project-wrap">
         <a href="lake-eyasi.html" class="img" style="background-image: url(images/Destinations/lake-eyas-dest.jpg);">
-            <span class="price">$2,394 to 3,750/person</span>
         </a>
         <div class="text p-4">
             <h3><a href="lake-eyasi.html">Lake Eyasi | Cultural Experience</a></h3>
@@ -224,7 +218,6 @@ const tourData = {
 <div class="col-md-4 page2">
     <div class="project-wrap">
         <a href="mafia-island.html" class="img" style="background-image: url(images/Destinations/mafia-island-dest.jpg);">
-            <span class="price">$1,000 to 2,348/person</span>
         </a>
         <div class="text p-4">
             <h3><a href="mafia-island.html">Mafia Island | Marine Park Paradise</a></h3>
@@ -246,7 +239,6 @@ const tourData = {
 <div class="col-md-4 page3">
 <div class="project-wrap">
     <a href="mount-meru.html" class="img" style="background-image: url(images/Destinations/mount-meru-dest.jpg);">
-        <span class="price">$2,000 to 2,346/person</span>
     </a>
     <div class="text p-4">
         <h3><a href="mount-meru.html">Mount Meru |Trekking & wildlife encounters</a></h3>
@@ -264,7 +256,6 @@ const tourData = {
 <div class="col-md-4 page3">
 <div class="project-wrap">
     <a href="ol-doinyo-lengai.html" class="img" style="background-image: url(images/Destinations/oldoinyo-lengai-dest.jpg);">
-        <span class="price">$1,950 to 3,734/person</span>
     </a>
     <div class="text p-4">
         <h3><a href="ol-doinyo-lengai.html">Ol Doinyo Lengai | Nighttime summit climbs</a></h3>
@@ -283,11 +274,10 @@ const tourData = {
 
 <div class="col-md-4 page3">
      <div class="project-wrap">
-         <a href="selous.html" class="img" style="background-image: url(images/Destinations/selous-dest.jpg);">
-             <span class="price">$1,990 to 3,789/person</span>
+         <a href="Selous-Game-Reserve.html" class="img" style="background-image: url(images/Destinations/selous-dest.jpg);">
          </a>
          <div class="text p-4">
-             <h3><a href="selous.html">Selous Game Reserve | Boat Safari</a></h3>
+             <h3><a href="Selous-Game-Reserve.html">Selous Game Reserve | Boat Safari</a></h3>
              <p class="location"><span class="fa fa-map-marker-alt"></span> Dar es Salaam (Starts), Selous (End)
              </p>
              <p>Explore the vast wilderness of Selous Game Reserve, one of Africa's largest protected areas.
@@ -297,7 +287,7 @@ const tourData = {
                  <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
                  <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
              </ul>
-             <a href="selous.html" class="read-more">Read More</a>
+             <a href="Selous-Game-Reserve.html" class="read-more">Read More</a>
          </div>
      </div>
 </div>
@@ -305,11 +295,10 @@ const tourData = {
      
 <div class="col-md-4 page3">
 <div class="project-wrap">
-    <a href="ruaha.html" class="img" style="background-image: url(images/Destinations/Ruaha-dest.jpg);">
-        <span class="price">$1,860 to 6,438/person</span>
+    <a href="Ruaha-National-Park.html" class="img" style="background-image: url(images/Destinations/Ruaha-dest.jpg);">
     </a>
     <div class="text p-4">
-        <h3><a href="ruaha.html">Ruaha National Park | Bird Watching</a></h3>
+        <h3><a href="Ruaha-National-Park.html">Ruaha National Park | Bird Watching</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span> Iringa (Starts), Ruaha (End) </p>
         <p>A birdwatcher's paradise, Ruaha National Park boasts over 500 bird species and stunning
             landscapes. From lions and elephants to rare bird sightings, this park offers a unique safari
@@ -318,7 +307,7 @@ const tourData = {
             <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
             <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
         </ul>
-        <a href="ruaha.html" class="read-more">Read More</a>
+        <a href="Ruaha-National-Park.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>
@@ -328,7 +317,6 @@ const tourData = {
 <div class="col-md-4 page3">
     <div class="project-wrap">
         <a href="lake-victoria.html" class="img" style="background-image: url(images/Destinations/Lake-victoria-dest.jpg);">
-            <span class="price">$1,200 to 4,434/person</span>
         </a>
         <div class="text p-4">
             <h3><a href="lake-victoria.html">Lake Victoria | Island Adventure</a></h3>
@@ -347,11 +335,11 @@ const tourData = {
 
 <div class="col-md-4 page3">
 <div class="project-wrap">
-    <a href="usambara.html" class="img" style="background-image: url(images/Destinations/usambala-dest.jpg);">
-        <span class="price">$1,500 to 6,223/person</span>
+    <a href="Usambara-Mountains.html" class="img" style="background-image: url(images/Destinations/usambala-dest.jpg);">
+
     </a>
     <div class="text p-4">
-        <h3><a href="usambara.html">Usambara Mountains | Hiking & cultural tours</a></h3>
+        <h3><a href="Usambara-Mountains.html">Usambara Mountains | Hiking & cultural tours</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span>Arusha (Starts),Tanga (Ends)</p>
         <p>The ranges of approximately 90 kilometres long and about half that wide, the Usambara Mountains are known for their lush green forests, cool climate, 
         and spectacular views over the plains below.</p>
@@ -359,7 +347,7 @@ const tourData = {
             <li><span><i class="fas fa-hiking"></i></span>Trekking Available</li>
             <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>  
         </ul>
-        <a href="usambara.html" class="read-more">Read More</a>
+        <a href="Usambara-Mountains.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>
@@ -371,7 +359,7 @@ const tourData = {
 <div class="col-md-4 page4">
 <div class="project-wrap">
     <a href="livingstone.html" class="img" style="background-image: url(images/Destinations/Livingstone-dest.jpg);">
-        <span class="price">$1,399 to 2,378/person</span>
+
     </a>
     <div class="text p-4">
         <h3><a href="livingstone.html">Livingstone Mountains | tunning lake views</a></h3>
@@ -392,18 +380,18 @@ const tourData = {
 
 <div class="col-md-4 page2">
     <div class="project-wrap">
-        <a href="katavi.html" class="img" style="background-image: url(images/Destinations/katavi-national-park-dest.jpg);">
-            <span class="price">$1,580 to 2,221/person</span>
+        <a href="Katavi-National-Park.html" class="img" style="background-image: url(images/Destinations/katavi-national-park-dest.jpg);">
+
         </a>
         <div class="text p-4">
-            <h3><a href="katavi.html">Katavi National Park | Remote Wilderness Safari</a></h3>
+            <h3><a href="Katavi-National-Park.html">Katavi National Park | Remote Wilderness Safari</a></h3>
             <p class="location"><span class="fa fa-map-marker-alt"></span> Mpanda (Starts and Ends)</p>
             <p>Katavi National park, one of Tanzania’s most remote parks. Encounter large herds of buffalo and elephants, and enjoy the solitude of this pristine landscape.</p>
             <ul>
                 <li><span><i class="fas fa-binoculars"></i></span>Game Drives</li>
                 <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
             </ul>
-            <a href="katavi.html" class="read-more">Read More</a>
+            <a href="Katavi-National-Park.html" class="read-more">Read More</a>
         </div>
     </div>
 </div>
@@ -412,7 +400,7 @@ const tourData = {
 <div class="col-md-4 page4">
     <div class="project-wrap">
         <a href="rufiji.html" class="img" style="background-image: url(images/Destinations/Rufiji-river-dest.jpg);">
-            <span class="price">$1,030 to 3,322/person</span>
+
         </a>
         <div class="text p-4">
             <h3><a href="rufiji.html">Rufiji River | Boat Safari</a></h3>
@@ -430,7 +418,7 @@ const tourData = {
 <div class="col-md-4 page3">
      <div class="project-wrap">
          <a href="pangani.html" class="img" style="background-image: url(images/Destinations/Pangani_River_dest.jpg);">
-             <span class="price">$1,100 to 3,432/person</span>
+
          </a>
          <div class="text p-4">
              <h3><a href="pangani.html">Pangani River | Cultural and Fishing Tour</a></h3>
@@ -450,7 +438,7 @@ const tourData = {
 <div class="col-md-4 page4">
     <div class="project-wrap">
         <a href="udzungwa.html" class="img" style="background-image: url(images/Destinations/udzungwa-mountains-dest.jpg);">
-            <span class="price">$6,300 to 3,213/person</span>
+
         </a>
         <div class="text p-4">
             <h3><a href="udzungwa.html">Udzungwa Mountains | Hiking and Waterfalls</a></h3>
@@ -470,7 +458,7 @@ const tourData = {
 <div class="col-md-4 page3">
     <div class="project-wrap">
         <a href="lake-nyasa.html" class="img" style="background-image: url(images/Destinations/lake-nyasa-dest.jpg);">
-            <span class="price">$800 to 3,000/person</span>
+
         </a>
         <div class="text p-4">
             <h3><a href="lake-nyasa.html">Lake Nyasa | Beach Relaxation</a></h3>
@@ -493,7 +481,7 @@ const tourData = {
 <div class="col-md-4 page5">
 <div class="project-wrap">
     <a href="mahale.html" class="img" style="background-image: url(images/Destinations/mahale-dest.jpg);">
-        <span class="price">$1,500 to 3,322/person</span>
+
     </a>
     <div class="text p-4">
         <h3><a href="mahale.html">Mahale Mountains | Chimpanzee Trekking</a></h3>
@@ -513,7 +501,7 @@ const tourData = {
 <div class="col-md-4 page5">
     <div class="project-wrap">
         <a href="saanane.html" class="img" style="background-image: url(images/Destinations/saanane-dest.jpg);">
-            <span class="price">$934 to 1,211/person</span>
+  
         </a>
         <div class="text p-4">
             <h3><a href="saanane.html">Saanane Island | Island Wildlife Experience</a></h3>
@@ -531,7 +519,7 @@ const tourData = {
 <div class="col-md-4 page5">
     <div class="project-wrap">
         <a href="bagamoyo.html" class="img" style="background-image: url(images/Destinations/bagamoyo-dest.jpg);">
-            <span class="price">$2,340 to 3,000/person</span>
+
         </a>
         <div class="text p-4">
             <h3><a href="bagamoyo.html">Bangoyo Island | Beach Day Escape</a></h3>
@@ -549,7 +537,7 @@ const tourData = {
 <div class="col-md-4 page2">
     <div class="project-wrap">
         <a href="stone-town.html" class="img" style="background-image: url(images/Destinations/stone-town-dest.jpg);">
-            <span class="price">$3,000 to 3,289/person</span>
+
         </a>
         <div class="text p-4">
             <h3><a href="stone-town.html">Stone Town | Historical and Cultural Tour</a></h3>
@@ -568,7 +556,7 @@ const tourData = {
 <div class="col-md-4 page5">
     <div class="project-wrap">
         <a href="lake-tanganyika.html" class="img" style="background-image: url(images/Destinations/Lake-Tanganyika-dest.jpg);">
-            <span class="price">$1,300 to 2,340/person</span>
+
         </a>
         <div class="text p-4">
             <h3><a href="lake-tanganyika.html">Lake Tanganyika | Water Sports & Wildlife</a></h3>
@@ -586,7 +574,7 @@ const tourData = {
 <div class="col-md-4 page2">
     <div class="project-wrap">
         <a href="gombe.html" class="img" style="background-image: url(images/Destinations/gombe-dest.jpg);">
-            <span class="price">$1,000 to 3,400/person</span>
+
         </a>
         <div class="text p-4">
             <h3><a href="gombe.html">Gombe Stream | Chimpanzee Tracking</a></h3>

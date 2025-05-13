@@ -5,11 +5,11 @@ const tourData = {
      1: `
 <div class="col-md-4 page1">
 <div class="project-wrap">
-    <a href="serengeti.html" class="img" style="background-image: url(images/Destinations/serengeti-dest.jpeg);">
-        <span class="price">$2,500 to $5,000/person</span>
+    <a href="Serengeti-National-Park.html" class="img" style="background-image: url(images/Destinations/serengeti-dest.jpeg);">
+
     </a>
     <div class="text p-4">
-        <h3><a href="serengeti.html">Serengeti National Park | Great Migration Safari</a></h3>
+        <h3><a href="Serengeti-National-Park.html">Serengeti National Park | Great Migration Safari</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts), Serengeti (End) </p>
         <p>Experience a millions of wildebeest, zebras, and gazelles
             migrate across the Serengeti plains, accompanied by breathtaking landscapes and diverse
@@ -18,17 +18,17 @@ const tourData = {
             <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
             <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
         </ul>
-        <a href="serengeti.html" class="read-more">Read More</a>
+        <a href="Serengeti-National-Park.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>
 <div class="col-md-4 page1">
 <div class="project-wrap">
-    <a href="crater.html" class="img" style="background-image: url(images/Destinations/Crater-dest.jpg);">
-        <span class="price">$1,200 to $1,800/person</span>
+    <a href="ngorongoro-crater.html" class="img" style="background-image: url(images/Destinations/Crater-dest.jpg);">
+
     </a>
     <div class="text p-4">
-        <h3><a href="crater.html">Ngorongoro Crater | Wildlife Safari</a></h3>
+        <h3><a href="ngorongoro-crater.html">Ngorongoro Crater | Wildlife Safari</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts), Ngorongoro (End)
         </p>
         <p>Home to an incredible diversity of wildlife, the Ngorongoro Crater offers stunning views and a
@@ -38,18 +38,18 @@ const tourData = {
             <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
             <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
         </ul>
-        <a href="crater.html" class="read-more">Read More</a>
+        <a href="ngorongoro-crater.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>
 
 <div class="col-md-4 page1">
 <div class="project-wrap">
-    <a href="tarangire.html" class="img" style="background-image: url(images/Destinations/Tara-dest.jpg);">
-        <span class="price">$900 to $1,500/person</span>
+    <a href="Tarangire-National-Park.html" class="img" style="background-image: url(images/Destinations/Tara-dest.jpg);">
+
     </a>
     <div class="text p-4">
-        <h3><a href="tarangire.html">Tarangire National Park | Elephant Safari</a></h3>
+        <h3><a href="Tarangire-National-Park.html">Tarangire National Park | Elephant Safari</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts), Tarangire (End) </p>
         <p>Known for its large elephant herds and baobab trees, Tarangire National Park offers a serene
             safari experience. Enjoy close encounters with diverse wildlife in this lesser-visited gem of
@@ -58,18 +58,17 @@ const tourData = {
             <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
             <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
         </ul>
-        <a href="tarangire.html" class="read-more">Read More</a>
+        <a href="Tarangire-National-Park.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>
 
 <div class="col-md-4 page1">
 <div class="project-wrap">
-    <a href="mikumi.html" class="img" style="background-image: url(images/Destinations/Mikumi-National-Park-dest.jpg);">
-        <span class="price">$1,400 to $2,000/person</span>
+    <a href="Mikumi-National-Park.html" class="img" style="background-image: url(images/Destinations/Mikumi-National-Park-dest.jpg);">
     </a>
     <div class="text p-4">
-        <h3><a href="mikumi.html">Mikumi National Park | Game drives & Hippo pools</a></h3>
+        <h3><a href="Mikumi-National-Park.html">Mikumi National Park | Game drives & Hippo pools</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span> Dar es Salaam (Starts), Mikumi (End)
         </p>
         <p>Explore the vast wilderness of Mikumi National Park,
@@ -79,7 +78,7 @@ const tourData = {
             <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
             <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
         </ul>
-        <a href="mikumi.html" class="read-more">Read More</a>
+        <a href="Mikumi-National-Park.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>
@@ -87,18 +86,18 @@ const tourData = {
 
 <div class="col-md-4 page1">
     <div class="project-wrap">
-        <a href="arusha-park.html" class="img" style="background-image: url(images/Destinations/Arusha-park-dest.jpg);">
-            <span class="price">$800 to $1,200/person</span>
+        <a href="Arusha-National-Park.html" class="img" style="background-image: url(images/Destinations/Arusha-park-dest.jpg);">
+        
         </a>
         <div class="text p-4">
-            <h3><a href="arusha-park.html">Arusha National Park | Scenic Safari</a></h3>
+            <h3><a href="Arusha-National-Park.html">Arusha National Park | Scenic Safari</a></h3>
             <p class="location"><span class="fa fa-map-marker-alt"></span> Arusha (Starts) and Arusha Town (Ends)</p>
             <p>Discover the beauty of Arusha National Park, home to the scenic Momella Lakes and Mount Meru. Enjoy game drives, Photographic,Riding safari , and walking safaris in this diverse landscape.</p>
             <ul>
                 <li><span><i class="fas fa-hiking"></i></span>Walking Safaris Available</li>
                 <li><span><i class="fa fa-bicycle"></i></span>Riding Tours</li>
             </ul>
-            <a href="arusha-park.html" class="read-more">Read More</a>
+            <a href="Arusha-National-Park.html" class="read-more">Read More</a>
         </div>
     </div>
 </div>
@@ -106,11 +105,11 @@ const tourData = {
 
 <div class="col-md-4 page1">
 <div class="project-wrap">
-    <a href="ruaha.html" class="img" style="background-image: url(images/Destinations/Ruaha-dest.jpg);">
-        <span class="price">$1,800 to $2,000/person</span>
+    <a href="Ruaha-National-Park.html" class="img" style="background-image: url(images/Destinations/Ruaha-dest.jpg);">
+
     </a>
     <div class="text p-4">
-        <h3><a href="ruaha.html">Ruaha National Park | Bird Watching</a></h3>
+        <h3><a href="Ruaha-National-Park.html">Ruaha National Park | Bird Watching</a></h3>
         <p class="location"><span class="fa fa-map-marker-alt"></span> Iringa (Starts), Ruaha (End) </p>
         <p>A birdwatcher's paradise, Ruaha National Park boasts over 500 bird species and stunning
             landscapes. From lions and elephants to rare bird sightings, this park offers a unique safari
@@ -119,7 +118,7 @@ const tourData = {
             <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
             <li><span><i class="fas fa-hotel"></i></span>Lodges Available</li>
         </ul>
-        <a href="ruaha.html" class="read-more">Read More</a>
+        <a href="Ruaha-National-Park.html" class="read-more">Read More</a>
     </div>
 </div>
 </div>
@@ -128,25 +127,23 @@ const tourData = {
      2: `
      <div class="col-md-4 page2">
     <div class="project-wrap">
-        <a href="katavi.html" class="img" style="background-image: url(images/Destinations/katavi-national-park-dest.jpg);">
-            <span class="price">$1,500 to $2,000/person</span>
+        <a href="Katavi-National-Park.html" class="img" style="background-image: url(images/Destinations/katavi-national-park-dest.jpg);">
         </a>
         <div class="text p-4">
-            <h3><a href="katavi.html">Katavi National Park | Remote Wilderness Safari</a></h3>
+            <h3><a href="Katavi-National-Park.html">Katavi National Park | Remote Wilderness Safari</a></h3>
             <p class="location"><span class="fa fa-map-marker-alt"></span> Mpanda (Starts and Ends)</p>
             <p>Katavi National park, one of Tanzania’s most remote parks. Encounter large herds of buffalo and elephants, and enjoy the solitude of this pristine landscape.</p>
             <ul>
                 <li><span><i class="fas fa-binoculars"></i></span>Game Drives</li>
                 <li><span><i class="fas fa-campground"></i></span>Camping Available</li>
             </ul>
-            <a href="katavi.html" class="read-more">Read More</a>
+            <a href="Katavi-National-Park.html" class="read-more">Read More</a>
         </div>
     </div>
 </div>
      <div class="col-md-4 page2">
     <div class="project-wrap">
         <a href="mkomazi-national-park.html" target="_blank" class="img" style="background-image: url(./images/Destinations/An-adult-black-rhino-at-Mkomazi-National-Park-Tanzania.jpg);">
-            <span class="price">$800 to $4,500/person</span>
         </a>
         <div class="text p-4">
             <h3><a href="mkomazi-national-park.html" target="_blank">Mkomazi National Park | Rare Wildlife Sanctuary</a></h3>
