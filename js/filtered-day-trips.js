@@ -8,7 +8,6 @@ const tourData = {
 <div class="col-md-4 page1">
 <div class="project-wrap">
     <a href="Tarangire-National-Park.html" class="img" style="background-image: url(images/Destinations/Tara-dest.jpg);">
-        <span class="price">$550 to 1,360/person</span>
     </a>
     <div class="text p-4">
         <h3><a href="Tarangire-National-Park.html">Tarangire National Park | Elephant Safari</a></h3>
@@ -29,7 +28,6 @@ const tourData = {
 <div class="col-md-4 page4">
     <div class="project-wrap">
         <a href="materuni.html" class="img" style="background-image: url(images/Destinations/materuni.jpg);">
-            <span class="price">$50/person</span>
         </a>
         <div class="text p-4">
             <span class="days">1 Day Tour</span>
@@ -49,7 +47,6 @@ const tourData = {
 <div class="col-md-4 page4">
     <div class="project-wrap">
         <a href="kikuletwa-hotspring.html" class="img" style="background-image: url(images/Destinations/kikuletwa-hot-spring-desc.jpg)";>
-            <span class="price">$50/person</span>
         </a>
         <div class="text p-4">
             <span class="days">1 Day Tour</span>
@@ -69,7 +66,7 @@ const tourData = {
 <div class="col-md-4 page4">
     <div class="project-wrap">
         <a href="serval.html" class="img" style="background-image: url(images/Destinations/serval-wildlife-dest.jpg);">
-            <span class="price">$500/person</span>
+
         </a>
         <div class="text p-4">
             <span class="days">1 Day Tour</span>
@@ -89,7 +86,7 @@ const tourData = {
 <div class="col-md-4 page4">
     <div class="project-wrap">
         <a href="napuru-waterfalls.html" class="img" style="background-image: url(images/Destinations/napuru-waterfalls.jpg);">
-            <span class="price">$250/person</span>
+
         </a>
         <div class="text p-4">
             <span class="days">Half-Day Adventure</span>
@@ -110,7 +107,7 @@ const tourData = {
 <div class="col-md-4 page4">
     <div class="project-wrap">
         <a href="lake-duluti.html" class="img" style="background-image: url(images/Destinations/lake-duluti-daytrip.jpg);">
-            <span class="price">$200/person</span>
+
         </a>
         <div class="text p-4">
             <span class="days">Half-Day Adventure</span>
@@ -135,7 +132,6 @@ const tourData = {
 <div class="col-md-4 page1">
     <div class="project-wrap">
         <a href="Arusha-National-Park.html" class="img" style="background-image: url(images/Destinations/Arusha-park-dest.jpg);">
-              <span class="price">$250/person</span>
         </a>
         <div class="text p-4">
             <h3><a href="Arusha-National-Park.html">Arusha National Park | Scenic Safari</a></h3>
