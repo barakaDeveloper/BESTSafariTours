@@ -242,7 +242,7 @@ const tourData = {
 							</a>
 							<div class="text p-4">
 								<span class="days">Full-Day Adventure</span>
-								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="Safari/1-Day-Lake-Duluti-trip.html" target="_blank" > 1-Day Exploration of Arusha National Park wildlife</a></h3>
+								<h3  style="font-weight: 700; margin-bottom: 15px;"><a href="Safari/1-Day-Lake-Duluti-trip.html" target="_blank" > 1-Day Tour of Lake Duluti | Canoeing & Nature Walk </a></h3>
 								<p class="star">
 											<span class="fa fa-star"></span>
 											<span class="fa fa-star"></span>
